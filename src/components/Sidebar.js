@@ -57,7 +57,7 @@ const Sidebar = () => {
       </div>
       {/* download resume  */}
       <a href={resume} download="resume.pdf">
-        <div className="sidebar__item sidebar__resume">Download Resume</div>
+        <div className="sidebar__item sidebar__resume">Resume</div>
       </a>
       {/* socials icons  */}
       <figure className="my-2 sidebar__social-icons ">

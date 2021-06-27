@@ -51,7 +51,7 @@ const Resume = () => {
           </div>
         </div>
         <div className="col-lg-6 resume-card">
-          <h4 className="resume-card__heading">What i do</h4>
+          <h4 className="resume-card__heading">Who I'm</h4>
           <p className="resume-card__details">
             A passionate <strong>Full Stack Software Developer</strong>
             🚀 having an experience of designing and building Web and Mobile

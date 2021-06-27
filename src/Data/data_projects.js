@@ -1,14 +1,13 @@
 import Reactstore from "../assets/projects_images/mqdefault.jpg";
 import ReactRedux from "../assets/projects_images/React-Redux.jpg";
-import tinder from "../assets/projects_images/tinder2.jpg";
+import tinder from "../assets/projects_images/tinder.png";
 import blog from "../assets/projects_images/blog.png";
-import Pizza from "../assets/projects_images/pizza.jpg";
+import Pizza from "../assets/projects_images/pizza.png";
 import microsoft from "../assets/projects_images/microsoft.jpg";
 import instagram1 from "../assets/projects_images/insta2.jpg";
 import instagram2 from "../assets/projects_images/insta3.jpg";
-import fbmessage from "../assets/projects_images/fbmessage.png";
-import memories from "../assets/projects_images/memories.jpg";
-import books from "../assets/projects_images/book.jpg";
+import memories from "../assets/projects_images/memories.png";
+import books from "../assets/projects_images/book.png";
 import Amazon from "../assets/projects_images/Amazon-Clone.jpg";
 import Hulu from "../assets/projects_images/Hulu.jpg";
 import Facebook from "../assets/projects_images/facebook.png";
@@ -23,22 +22,30 @@ import coinbase from "../assets/projects_images/coinbase.jpg";
 import youtube from "../assets/projects_images/youtube.webp";
 import signal from "../assets/projects_images/signal.webp";
 import portfolio from "../assets/projects_images/portfolio.jpg";
-import slack from "../assets/projects_images/slack.png";
+import slack1 from "../assets/projects_images/slack.png";
 import shopping from "../assets/projects_images/shopping.jpg";
 import flipkart from "../assets/projects_images/flipkart.jpg";
+import discode from "../assets/projects_images/discode.png";
+import imessage from "../assets/projects_images/imessage.png";
+import message from "../assets/projects_images/messanger.png";
+import slack2 from "../assets/projects_images/slack3.png";
+import telegram from "../assets/projects_images/telegram.png";
+import twitter from "../assets/projects_images/twitter.jpg";
+import sellShop from "../assets/projects_images/selling-shop.webp";
+
 const data_projects = [
-  {
-    name: "Slack-Clone",
-    image: slack,
-    deployed_url: "https://whispering-escarpment-96376.herokuapp.com/",
-    github_url: "https://github.com/Tuhsarshrivastav/Mern-slack-clone",
-    category: ["mern-stack"],
-  },
   {
     name: "Shopping-App",
     image: shopping,
-    deployed_url: "https://shpping-app.herokuapp.com/login",
+    deployed_url: "https://shopping-app2.herokuapp.com",
     github_url: "https://github.com/Tuhsarshrivastav/MERN_Ecommerce",
+    category: ["mern-stack"],
+  },
+  {
+    name: "Slack-Clone",
+    image: slack1,
+    deployed_url: "https://whispering-escarpment-96376.herokuapp.com/",
+    github_url: "https://github.com/Tuhsarshrivastav/Mern-slack-clone",
     category: ["mern-stack"],
   },
   {
@@ -171,6 +178,56 @@ const data_projects = [
     category: ["react.js"],
   },
   {
+    name: "Telegram-Clone",
+    image: telegram,
+    deployed_url: "https://telegram-clone-4a266.web.app",
+    github_url: "https://github.com/Tuhsarshrivastav/Telegram-clone",
+    category: ["react.js"],
+  },
+  {
+    name: "Slack-Clone",
+    image: slack2,
+    deployed_url: "https://slack-clone-9eabf.web.app",
+    github_url: "https://github.com/Tuhsarshrivastav/Slack-clone",
+    category: ["react.js"],
+  },
+  {
+    name: "Imessage-Clone",
+    image: imessage,
+    deployed_url: "https://i-message-clone-5bf6a.web.app",
+    github_url: "https://github.com/Tuhsarshrivastav/I-Message-clone",
+    category: ["react.js"],
+  },
+  {
+    name: "Discode-Clone",
+    image: discode,
+    deployed_url: "https://discord-clone-a2d7b.web.app",
+    github_url: "https://github.com/Tuhsarshrivastav/Discode-clone-",
+    category: ["react.js"],
+  },
+  {
+    name: "TwitterClone",
+    image: twitter,
+    deployed_url: "https://twitter-clone-212c4.web.app",
+    github_url: "https://github.com/Tuhsarshrivastav/Twitter-clone",
+    category: ["react.js"],
+  },
+  {
+    name: "Microsoft-Ui",
+    image: microsoft,
+    deployed_url: "https://microsoft-ui-clone.netlify.app/",
+    github_url: "https://github.com/Tuhsarshrivastav/Microsoft-Ui-Clone",
+    category: ["design"],
+  },
+  {
+    name: "Messenger-Clone",
+    image: message,
+    deployed_url: "https://fb-messenger-clone-6b6f2.web.app/",
+    github_url: "https://github.com/Tuhsarshrivastav/fb-messenger",
+    category: ["react.js"],
+  },
+
+  {
     name: "Coinbase-Clone",
     image: coinbase,
     deployed_url:
@@ -180,12 +237,11 @@ const data_projects = [
     category: ["react-native"],
   },
   {
-    name: "Whatsapp-UI",
-    image: whatsapp,
+    name: "Selling-Shop",
+    image: sellShop,
     deployed_url:
-      "https://github.com/Tuhsarshrivastav/React-Native-Whatsapp-Ui-Clone",
-    github_url:
-      "https://github.com/Tuhsarshrivastav/React-Native-Whatsapp-Ui-Clone",
+      "https://github.com/Tuhsarshrivastav/React-Native-Selling-Shop",
+    github_url: "https://github.com/Tuhsarshrivastav/React-Native-Selling-Shop",
     category: ["react-native"],
   },
   {
@@ -214,25 +270,20 @@ const data_projects = [
     category: ["react-native"],
   },
   {
+    name: "Whatsapp-UI",
+    image: whatsapp,
+    deployed_url:
+      "https://github.com/Tuhsarshrivastav/React-Native-Whatsapp-Ui-Clone",
+    github_url:
+      "https://github.com/Tuhsarshrivastav/React-Native-Whatsapp-Ui-Clone",
+    category: ["react-native"],
+  },
+  {
     name: "Pizza-Ui",
     image: Pizza,
     deployed_url: "https://pizza-ui.netlify.app/",
     github_url: "https://github.com/Tuhsarshrivastav/Pizza-ui",
     category: ["design"],
-  },
-  {
-    name: "Microsoft-Ui",
-    image: microsoft,
-    deployed_url: "https://microsoft-ui-clone.netlify.app/",
-    github_url: "https://github.com/Tuhsarshrivastav/Microsoft-Ui-Clone",
-    category: ["design"],
-  },
-  {
-    name: "Messenger-Clone",
-    image: fbmessage,
-    deployed_url: "https://fb-messenger-clone-6b6f2.web.app/",
-    github_url: "https://github.com/Tuhsarshrivastav/fb-messenger",
-    category: ["react.js"],
   },
 ];
 
