@@ -34,9 +34,9 @@ function App() {
                 color: "#b8bdc5",
               }}
             >
-              I am createing <span style={{ color: "#ced4da" }}>Web</span> Apps
+              I can create full stack  <span style={{ color: "#ced4da" }}>Web</span> Apps
               and <span style={{ color: "#ced4da" }}>Mobile</span> Apps to
-              satisfying your needs...
+              satisfying your business needs...
             </p>
           </div>
           <ClipLoader color={"#fd4d4d"} />

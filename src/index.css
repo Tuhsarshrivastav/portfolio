@@ -220,6 +220,7 @@ a:hover {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 .tools {
   overflow-y: scroll;
   max-height: 195px;
@@ -237,6 +238,18 @@ a:hover {
 .resume-card__details {
   font-size: 0.9rem;
   color: #b8bdc5;
+  height: 102px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.resume-card__details::-webkit-scrollbar {
+  display: none;
+}
+.resume-card__info {
+  font-size: 0.9rem;
+  color: #b8bdc5;
+  max-height: 102px;
 }
 .projects {
   max-height: 65vh;

@@ -44,7 +44,7 @@ const Resume = () => {
               B.com in Computer Application
             </h5>
             <p className="resume-card__name">Techno Academy(2019-2022)</p>
-            <p className="resume-card__details">
+            <p className="resume-card__info">
               I am currently studying B.com in Computer Application from Gyan
               Ganga College of Excellence
             </p>
