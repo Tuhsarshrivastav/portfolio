@@ -53,7 +53,7 @@ const Resume = () => {
         <div className="col-lg-6 resume-card">
           <h4 className="resume-card__heading">Who I'm</h4>
           <p className="resume-card__details">
-            A passionate <strong>Full Stack Software Developer</strong>
+            A passionate <strong>Full Stack Developer</strong>
             🚀 having an experience of designing and building Web and Mobile
             applications with <strong>JavaScript</strong> /{" "}
             <strong>React.js</strong> / <strong>Nodejs</strong> /{" "}
@@ -64,7 +64,7 @@ const Resume = () => {
       </div>
       <div className="row ">
         <div className="col-lg-6 resume-languages">
-          <h5 className="reume-language__heading">Frontend</h5>
+          <h5 className="reume-language__heading">Frontend Technology</h5>
           <div className="mt-3 language">
             {languages.map((language) => (
               <Bar value={language} key={language.id} />
@@ -72,7 +72,9 @@ const Resume = () => {
           </div>
         </div>
         <div className="col-lg-6 resume-languages">
-          <h5 className="reume-language__heading margin ">Backend</h5>
+          <h5 className="reume-language__heading margin ">
+            Backend Technology
+          </h5>
           <div className="mt-3  tools">
             {tools.map((tool) => (
               <Bar value={tool} key={tool.id} />

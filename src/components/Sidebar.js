@@ -32,7 +32,12 @@ const Sidebar = () => {
       animate="visible"
     >
       {/* Profile image  */}
-      <img loading="lazy" src={profile} alt="Profile" className="sidebar__avatar" />
+      <img
+        loading="lazy"
+        src={profile}
+        alt="Profile"
+        className="sidebar__avatar"
+      />
       {/* name */}
       <div className="sidebar__name">
         Tushar <span>Shrivastav</span>
@@ -56,7 +61,7 @@ const Sidebar = () => {
         />
       </div>
       {/* download resume  */}
-      <a href={resume} download="resume.pdf">
+      <a style={{ fontWeight: "bold" }} href={resume} download="resume.pdf">
         <div className="sidebar__item sidebar__resume">Resume</div>
       </a>
       {/* socials icons  */}
@@ -77,15 +82,24 @@ const Sidebar = () => {
       {/* Links */}
       <div className="sidebar__contact">
         <div className="sidebar__item sidebar__github ">
-          <a href="https://github.com/Tuhsarshrivastav">
-            <GitHubIcon className="mr-2 sidebar__icon" /> Github
+          <a
+            style={{ fontWeight: "bold" }}
+            href="https://github.com/Tuhsarshrivastav"
+          >
+            <GitHubIcon
+              style={{ marginRight: "4px" }}
+              className="sidebar__icon"
+            />{" "}
+            Github
           </a>
         </div>
-        <div className="sidebar__item" style={{ cursor: "pointer" }}>
-          {" "}
+        <div
+          className="sidebar__item"
+          style={{ cursor: "pointer", fontWeight: "bold" }}
+        >
           &nbsp;
-          <PlaceIcon style={{ fontSize: "30px" }} />
-          &nbsp; Jabalpur
+          <PlaceIcon style={{ fontSize: "30px", marginRight: "2px" }} />
+          Jabalpur
         </div>
       </div>
       {/* emailbotton  */}

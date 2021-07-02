@@ -6,13 +6,10 @@ const Navbar = () => {
   const [active, setActive] = useState("");
 
   useEffect(() => {
-    let currentUrl = window.location.href;
-    if (currentUrl.endsWith("/")) setActive("Resume");
-    else if (currentUrl.endsWith("projects")) {
-      setActive("Projects");
-    }
+    let currentURL = window.location.href;
+    if (currentURL.endsWith("/")) setActive("Resume");
+    else if (currentURL.endsWith("/projects")) setActive("Projects");
   }, [active]);
-
   const navbar_variant = {
     hidden: {
       y: "-30vh",
@@ -42,7 +39,7 @@ const Navbar = () => {
         {active !== "Resume" && (
           <Link to="/">
             <div className="navbar__item" onClick={() => setActive("Resume")}>
-              Resume
+              Details
             </div>
           </Link>
         )}

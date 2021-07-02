@@ -22,7 +22,24 @@ function App() {
     <>
       {loading ? (
         <div className="loader">
-          Loading.. <ClipLoader color={"#fd4d4d"} />
+          <div className="loaderText">
+            <h1 style={{ textAlign: "center" }}>
+              Hey, I'm <span style={{ color: "#eb4949" }}>Tushar</span>
+            </h1>
+            <p
+              style={{
+                fontWeight: 200,
+                textAlign: "center",
+                fontSize: "26px",
+                color: "#b8bdc5",
+              }}
+            >
+              I am createing <span style={{ color: "#ced4da" }}>Web</span> Apps
+              and <span style={{ color: "#ced4da" }}>Mobile</span> Apps to
+              satisfying your needs...
+            </p>
+          </div>
+          <ClipLoader color={"#fd4d4d"} />
         </div>
       ) : (
         <div className="app">

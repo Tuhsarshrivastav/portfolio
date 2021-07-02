@@ -32,8 +32,18 @@ import slack2 from "../assets/projects_images/slack3.png";
 import telegram from "../assets/projects_images/telegram.png";
 import twitter from "../assets/projects_images/twitter.jpg";
 import sellShop from "../assets/projects_images/selling-shop.webp";
+import Mern_Amazon from "../assets/projects_images/mernAmazon.jpg";
+import disney from "../assets/projects_images/disney.jpg";
+import note from "../assets/projects_images/noteZipper.jpg";
 
 const data_projects = [
+  {
+    name: "Amazon",
+    image: Mern_Amazon,
+    deployed_url: "https://amazon-clone16.herokuapp.com/",
+    github_url: "https://github.com/Tuhsarshrivastav/Mern-Amazon-Clone",
+    category: ["mern-stack"],
+  },
   {
     name: "Shopping-App",
     image: shopping,
@@ -42,7 +52,7 @@ const data_projects = [
     category: ["mern-stack"],
   },
   {
-    name: "Slack-Clone",
+    name: "Slack",
     image: slack1,
     deployed_url: "https://whispering-escarpment-96376.herokuapp.com/",
     github_url: "https://github.com/Tuhsarshrivastav/Mern-slack-clone",
@@ -53,6 +63,13 @@ const data_projects = [
     image: shop,
     deployed_url: "https://mern-shop1.herokuapp.com/",
     github_url: "https://github.com/Tuhsarshrivastav/Mern-Shop-app",
+    category: ["mern-stack"],
+  },
+  {
+    name: "Notes-Zipper",
+    image: note,
+    deployed_url: "https://mern-notes-app1.herokuapp.com/",
+    github_url: "https://github.com/Tuhsarshrivastav/Mern-Notes-App",
     category: ["mern-stack"],
   },
 
@@ -139,6 +156,13 @@ const data_projects = [
     deployed_url: "https://crypto-app-wine.vercel.app/",
     github_url: "https://github.com/Tuhsarshrivastav/Crypto-App",
     category: ["nextjs"],
+  },
+  {
+    name: "Disney-Clone",
+    image: disney,
+    deployed_url: "https://whatsapp2-393d6.web.app/",
+    github_url: "https://github.com/Tuhsarshrivastav/Disney-Plus-Clone",
+    category: ["react.js"],
   },
   {
     name: "Portfolio",
