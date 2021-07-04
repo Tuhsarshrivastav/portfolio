@@ -51,13 +51,13 @@ const Resume = () => {
         </div>
         <div className="col-lg-6 resume-card">
           <h4 className="resume-card__heading">Who I'm</h4>
-          <p className="resume-card__details">
-            A passionate <strong>Full Stack Developer</strong>
-            🚀 having an experience of designing and building Web and Mobile
-            applications with <strong>JavaScript</strong> /{" "}
-            <strong>React.js</strong> / <strong>Nodejs</strong> /{" "}
-            <strong>React-Native </strong>and some other cool libraries and
-            frameworks
+          <p
+            style={{ fontSize: "17px", fontWeight: "300" }}
+            className="resume-card__details"
+          >
+            Hello I'm Tushar Shrivastav A full stack developer living in jabalpur
+            I specialise in create full stack web and mobile apps using Mern
+            stack and react native ...
           </p>
         </div>
       </div>
