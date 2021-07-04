@@ -11,16 +11,17 @@ import ClipLoader from "react-spinners/ClipLoader";
 function App() {
   const location = useLocation();
   const [loading, setLoading] = useState(false);
+  const [show, setShow] = useState(false);
 
   useEffect(() => {
     setLoading(true);
     setInterval(() => {
       setLoading(false);
-    }, 3000);
+    }, 2000);
   }, []);
   return (
     <>
-      {loading ? (
+      {!show ? (
         <div className="loader">
           <div className="loaderText">
             <h1 style={{ textAlign: "center" }}>
@@ -34,12 +35,22 @@ function App() {
                 color: "#b8bdc5",
               }}
             >
-              I can create full stack  <span style={{ color: "#ced4da" }}>Web</span> Apps
-              and <span style={{ color: "#ced4da" }}>Mobile</span> Apps to
+              I can create full stack{" "}
+              <span style={{ color: "#ced4da" }}>Web</span> Apps and{" "}
+              <span style={{ color: "#ced4da" }}>Mobile</span> Apps to
               satisfying your business needs...
             </p>
           </div>
-          <ClipLoader color={"#fd4d4d"} />
+          <button
+            className={loading ? "spinLoading" : "exploreButton"}
+            onClick={() => setShow(true)}
+          >
+            {loading ? (
+              <ClipLoader color={"#fd4d4d"} />
+            ) : (
+              "Checkout my Portfolio"
+            )}
+          </button>
         </div>
       ) : (
         <div className="app">

@@ -3,7 +3,6 @@ import Bar from "./Bar";
 import { motion } from "framer-motion";
 import { tools, languages } from "../Data/resume_data";
 import { Helmet } from "react-helmet";
-
 const resume_variants = {
   hidden: {
     opacity: 0,
@@ -64,7 +63,7 @@ const Resume = () => {
       </div>
       <div className="row ">
         <div className="col-lg-6 resume-languages">
-          <h5 className="reume-language__heading">Frontend Technology</h5>
+          <h5 className="reume-language__heading">Frontend</h5>
           <div className="mt-3 language">
             {languages.map((language) => (
               <Bar value={language} key={language.id} />
@@ -72,9 +71,7 @@ const Resume = () => {
           </div>
         </div>
         <div className="col-lg-6 resume-languages">
-          <h5 className="reume-language__heading margin ">
-            Backend Technology
-          </h5>
+          <h5 className="reume-language__heading margin ">Backend</h5>
           <div className="mt-3  tools">
             {tools.map((tool) => (
               <Bar value={tool} key={tool.id} />

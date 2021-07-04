@@ -6,6 +6,8 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import Typewriter from "typewriter-effect";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const Sidebar = () => {
   const handleEmail = () => {
     window.open("mailto:ts3657@gmail.com");
@@ -32,8 +34,8 @@ const Sidebar = () => {
       animate="visible"
     >
       {/* Profile image  */}
-      <img
-        loading="lazy"
+      <LazyLoadImage
+        effect="blur"
         src={profile}
         alt="Profile"
         className="sidebar__avatar"

@@ -13,12 +13,12 @@ import next from "../assets/icons/next.png";
 import native from "../assets/icons/native.svg";
 import Redux from "../assets/icons/redux.svg";
 import Git from "../assets/icons/git.svg";
-import expo from "../assets/icons/expo.png";
 import Postman from "../assets/icons/postman.svg";
 import heroku from "../assets/icons/heroku.svg";
 import netlify from "../assets/icons/netlify.svg";
 import Tailwind from "../assets/icons/tailwind.png";
 import visualstudio from "../assets/icons/visual-studio-code.svg";
+import sass from "../assets/icons/sass.svg";
 
 const languages = [
   {
@@ -52,13 +52,13 @@ const languages = [
     level: "60",
   },
   {
-    icon: next,
-    name: "Next.js ",
-    level: "65",
+    icon: sass,
+    name: "Sass ",
+    level: "60",
   },
   {
-    icon: expo,
-    name: "Expo ",
+    icon: next,
+    name: "Next.js ",
     level: "65",
   },
   {

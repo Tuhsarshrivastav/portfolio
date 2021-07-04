@@ -7,7 +7,6 @@ import { Helmet } from "react-helmet";
 const Projects = () => {
   const [projects, setProjects] = useState(data_projects);
   const [active, setActive] = useState("All");
-
   const handleFilterCategory = (name) => {
     const new_array = data_projects.filter((project) =>
       project.category.includes(name)
@@ -97,7 +96,7 @@ const Projects = () => {
       </div>
       <div className="row">
         {projects.map((project) => (
-          <ProjectCard key={project.name} project={project} />
+          <ProjectCard key={project.id} project={project} />
         ))}
       </div>
     </motion.div>

@@ -38,6 +38,7 @@ import note from "../assets/projects_images/noteZipper.jpg";
 
 const data_projects = [
   {
+    id: 1,
     name: "Amazon",
     image: Mern_Amazon,
     deployed_url: "https://amazon-clone16.herokuapp.com/",
@@ -45,6 +46,7 @@ const data_projects = [
     category: ["mern-stack"],
   },
   {
+    id: 2,
     name: "Shopping-App",
     image: shopping,
     deployed_url: "https://shopping-app2.herokuapp.com",
@@ -52,6 +54,8 @@ const data_projects = [
     category: ["mern-stack"],
   },
   {
+    id: 3,
+
     name: "Slack",
     image: slack1,
     deployed_url: "https://whispering-escarpment-96376.herokuapp.com/",
@@ -59,6 +63,8 @@ const data_projects = [
     category: ["mern-stack"],
   },
   {
+    id: 4,
+
     name: "Shop-iT",
     image: shop,
     deployed_url: "https://mern-shop1.herokuapp.com/",
@@ -66,6 +72,8 @@ const data_projects = [
     category: ["mern-stack"],
   },
   {
+    id: 5,
+
     name: "Notes-Zipper",
     image: note,
     deployed_url: "https://mern-notes-app1.herokuapp.com/",
@@ -74,6 +82,8 @@ const data_projects = [
   },
 
   {
+    id: 6,
+
     name: "Blog-App",
     image: blog,
     deployed_url: "https://mern-blog-app1.herokuapp.com/",
@@ -81,6 +91,8 @@ const data_projects = [
     category: ["mern-stack"],
   },
   {
+    id: 7,
+
     name: "Memories-App",
     image: memories,
     deployed_url: "https://mern-memories-app1.herokuapp.com/",
@@ -88,6 +100,8 @@ const data_projects = [
     category: ["mern-stack"],
   },
   {
+    id: 8,
+
     name: "book-App",
     image: books,
     deployed_url: "https://mern-book-app1.herokuapp.com/",
@@ -95,6 +109,8 @@ const data_projects = [
     category: ["mern-stack"],
   },
   {
+    id: 9,
+
     name: "Instagram",
     image: instagram1,
     deployed_url: "https://mern-instagram-clone1.herokuapp.com/login",
@@ -102,6 +118,8 @@ const data_projects = [
     category: ["mern-stack"],
   },
   {
+    id: 10,
+
     name: "Flipkart-Clone",
     image: flipkart,
     deployed_url: "https://flipkart-clone1.herokuapp.com/",
@@ -109,6 +127,8 @@ const data_projects = [
     category: ["mern-stack"],
   },
   {
+    id: 11,
+
     name: "Blog",
     image: node,
     deployed_url: "https://nodejs-blog-app1.herokuapp.com/",
@@ -116,6 +136,8 @@ const data_projects = [
     category: ["node.js"],
   },
   {
+    id: 12,
+
     name: "Amazon-Clone",
     image: Amazon,
     deployed_url: "https://amazon-clone2-0-eight.vercel.app/",
@@ -123,6 +145,8 @@ const data_projects = [
     category: ["nextjs"],
   },
   {
+    id: 13,
+
     name: "Hulu-Clone",
     image: Hulu,
     deployed_url: "https://hulu-clone-2-ten.vercel.app/",
@@ -130,6 +154,8 @@ const data_projects = [
     category: ["nextjs"],
   },
   {
+    id: 14,
+
     name: "Facebook-Clone",
     image: Facebook,
     deployed_url: "https://facebook-clone-teal.vercel.app/",
@@ -137,6 +163,8 @@ const data_projects = [
     category: ["nextjs"],
   },
   {
+    id: 15,
+
     name: "Worlds-Rank",
     image: World,
     deployed_url: "https://worlds-rank.vercel.app/",
@@ -144,6 +172,8 @@ const data_projects = [
     category: ["nextjs"],
   },
   {
+    id: 16,
+
     name: "News-App",
     image: News,
     deployed_url: "https://news-app-orpin.vercel.app/",
@@ -151,6 +181,8 @@ const data_projects = [
     category: ["nextjs"],
   },
   {
+    id: 17,
+
     name: "Crypto-App",
     image: Crypto,
     deployed_url: "https://crypto-app-wine.vercel.app/",
@@ -158,6 +190,8 @@ const data_projects = [
     category: ["nextjs"],
   },
   {
+    id: 18,
+
     name: "Disney-Clone",
     image: disney,
     deployed_url: "https://whatsapp2-393d6.web.app/",
@@ -165,6 +199,8 @@ const data_projects = [
     category: ["react.js"],
   },
   {
+    id: 19,
+
     name: "Portfolio",
     image: portfolio,
     deployed_url: "https://react-portfolio-project1.netlify.app/",
@@ -172,6 +208,8 @@ const data_projects = [
     category: ["react.js"],
   },
   {
+    id: 20,
+
     name: "Ecommerce2.0",
     image: ReactRedux,
     deployed_url: "https://react-redux-ecommerce-c7681.web.app/",
@@ -180,6 +218,8 @@ const data_projects = [
   },
 
   {
+    id: 21,
+
     name: "Ecommerce",
     image: Reactstore,
     deployed_url: "https://react-store-5f33b.web.app/",
@@ -187,6 +227,8 @@ const data_projects = [
     category: ["react.js"],
   },
   {
+    id: 22,
+
     name: "Tinder-Clone",
     image: tinder,
     deployed_url: "https://tinder-clone-35d25.web.app/",
@@ -195,6 +237,8 @@ const data_projects = [
   },
 
   {
+    id: 23,
+
     name: "Instgaram-Clone",
     image: instagram2,
     deployed_url: "https://instagram-clone-b7110.web.app/",
@@ -202,6 +246,8 @@ const data_projects = [
     category: ["react.js"],
   },
   {
+    id: 24,
+
     name: "Telegram-Clone",
     image: telegram,
     deployed_url: "https://telegram-clone-4a266.web.app",
@@ -209,6 +255,8 @@ const data_projects = [
     category: ["react.js"],
   },
   {
+    id: 25,
+
     name: "Slack-Clone",
     image: slack2,
     deployed_url: "https://slack-clone-9eabf.web.app",
@@ -216,6 +264,8 @@ const data_projects = [
     category: ["react.js"],
   },
   {
+    id: 26,
+
     name: "Imessage-Clone",
     image: imessage,
     deployed_url: "https://i-message-clone-5bf6a.web.app",
@@ -230,6 +280,8 @@ const data_projects = [
     category: ["react.js"],
   },
   {
+    id: 27,
+
     name: "TwitterClone",
     image: twitter,
     deployed_url: "https://twitter-clone-212c4.web.app",
@@ -237,6 +289,8 @@ const data_projects = [
     category: ["react.js"],
   },
   {
+    id: 28,
+
     name: "Microsoft-Ui",
     image: microsoft,
     deployed_url: "https://microsoft-ui-clone.netlify.app/",
@@ -244,6 +298,8 @@ const data_projects = [
     category: ["design"],
   },
   {
+    id: 29,
+
     name: "Messenger-Clone",
     image: message,
     deployed_url: "https://fb-messenger-clone-6b6f2.web.app/",
@@ -252,6 +308,8 @@ const data_projects = [
   },
 
   {
+    id: 30,
+
     name: "Coinbase-Clone",
     image: coinbase,
     deployed_url:
@@ -261,6 +319,8 @@ const data_projects = [
     category: ["react-native"],
   },
   {
+    id: 31,
+
     name: "Selling-Shop",
     image: sellShop,
     deployed_url:
@@ -269,6 +329,8 @@ const data_projects = [
     category: ["react-native"],
   },
   {
+    id: 32,
+
     name: "Tesla-Clone",
     image: tesla,
     deployed_url:
@@ -277,6 +339,8 @@ const data_projects = [
     category: ["react-native"],
   },
   {
+    id: 33,
+
     name: "Youtube-Clone",
     image: youtube,
     deployed_url:
@@ -286,6 +350,7 @@ const data_projects = [
     category: ["react-native"],
   },
   {
+    id: 34,
     name: "Signal-Clone",
     image: signal,
     deployed_url:
@@ -294,6 +359,7 @@ const data_projects = [
     category: ["react-native"],
   },
   {
+    id: 35,
     name: "Whatsapp-UI",
     image: whatsapp,
     deployed_url:
@@ -303,6 +369,7 @@ const data_projects = [
     category: ["react-native"],
   },
   {
+    id: 36,
     name: "Pizza-Ui",
     image: Pizza,
     deployed_url: "https://pizza-ui.netlify.app/",
