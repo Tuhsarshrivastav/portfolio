@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import data_projects from "../Data/data_projects";
 import ProjectCard from "./ProjectCard";
 import { motion } from "framer-motion";
-import { Helmet } from "react-helmet";
-
+import './Projects.css'
 const Projects = () => {
   const [projects, setProjects] = useState(data_projects);
   const [active, setActive] = useState("All");
@@ -41,11 +40,6 @@ const Projects = () => {
       exit="exit"
     >
       <div className="projects__navbar">
-        <Helmet>
-          <title> Tushar shrivastav | Projects</title>
-          <meta name="description" content="Here's my all projcts" />
-          <meta name="keywords" content="Mern,react.js,node.js,react-native" />
-        </Helmet>
         <div
           className={active === "All" && "projects__navbar-active"}
           onClick={() => {

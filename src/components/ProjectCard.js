@@ -1,6 +1,5 @@
 import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 const ProjectCard = ({ project }) => {
   return (
     <div className="projectrCard col-md-6 col-lg-4 my-2">
@@ -10,14 +9,10 @@ const ProjectCard = ({ project }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <LazyLoadImage
-            effect="blur"
+          <img
             src={project.image}
             alt={project.name}
-            key={project.image}
             className="projectCard__image"
-            width="100%"
-            height="112px"
           />
         </a>
         <div className="projectCard__title">

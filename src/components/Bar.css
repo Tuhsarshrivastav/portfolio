@@ -1,0 +1,21 @@
+.bar {
+    max-width: 90%;
+    background-color: #242c37;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    max-height: 27px;
+  }
+  .bar__icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+  }
+  .bar__wrapper {
+    background-color: #414360;
+    border-radius: 10px;
+    padding: 3px 10px;
+    color: #ced4da;
+    font-size: 0.7rem;
+    font-weight: 900 !important;
+  }

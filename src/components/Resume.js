@@ -2,7 +2,7 @@ import React from "react";
 import Bar from "./Bar";
 import { motion } from "framer-motion";
 import { tools, languages } from "../Data/resume_data";
-import { Helmet } from "react-helmet";
+import './Resume.css'
 const resume_variants = {
   hidden: {
     opacity: 0,
@@ -31,11 +31,6 @@ const Resume = () => {
       exit="exit"
     >
       <div className="row">
-        <Helmet>
-          <title> Tushar shrivastav | Resume</title>
-          <meta name="description" content="Here's my all information" />
-          <meta name="keywords" content="education,city,state" />
-        </Helmet>
         <div className="col-lg-6 resume-card">
           <h4 className="resume-card__heading">Education</h4>
           <div className="resume-card__body">
@@ -52,7 +47,7 @@ const Resume = () => {
         <div className="col-lg-6 resume-card">
           <h4 className="resume-card__heading">Who I'm</h4>
           <p
-            style={{ fontSize: "17px", fontWeight: "300" }}
+            style={{ color:"whitesmoke", fontSize: "17px", fontWeight: "300" }}
             className="resume-card__details"
           >
             Hello I'm Tushar Shrivastav A full stack developer living in jabalpur

@@ -6,8 +6,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import Typewriter from "typewriter-effect";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-
+import "./Sidebar.css";
 const Sidebar = () => {
   const handleEmail = () => {
     window.open("mailto:ts3657@gmail.com");
@@ -33,18 +32,10 @@ const Sidebar = () => {
       initial="hidden"
       animate="visible"
     >
-      {/* Profile image  */}
-      <LazyLoadImage
-        effect="blur"
-        src={profile}
-        alt="Profile"
-        className="sidebar__avatar"
-      />
-      {/* name */}
+      <img src={profile} alt="Profile" className="sidebar__avatar" />
       <div className="sidebar__name">
         Tushar <span>Shrivastav</span>
       </div>
-      {/* title  */}
       <div className="sidebar__item sidebar__title">
         <Typewriter
           options={{
@@ -62,11 +53,9 @@ const Sidebar = () => {
           }}
         />
       </div>
-      {/* download resume  */}
       <a style={{ fontWeight: "bold" }} href={resume} download="resume.pdf">
         <div className="sidebar__item sidebar__resume">Resume</div>
       </a>
-      {/* socials icons  */}
       <figure className="my-2 sidebar__social-icons ">
         <a href="https://twitter.com/TusharS70759853">
           <TwitterIcon
@@ -81,7 +70,6 @@ const Sidebar = () => {
           />
         </a>
       </figure>
-      {/* Links */}
       <div className="sidebar__contact">
         <div className="sidebar__item sidebar__github ">
           <a
@@ -104,12 +92,10 @@ const Sidebar = () => {
           Jabalpur
         </div>
       </div>
-      {/* emailbotton  */}
       <div className="sidebar__item sidebar__email" onClick={handleEmail}>
         Email Me
       </div>
     </motion.div>
   );
 };
-
 export default Sidebar;

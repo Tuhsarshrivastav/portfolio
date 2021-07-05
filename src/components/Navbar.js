@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-
+import './Navbar.css'
 const Navbar = () => {
   const [active, setActive] = useState("");
 

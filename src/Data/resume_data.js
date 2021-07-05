@@ -8,14 +8,11 @@ import firebase from "../assets/icons/firebase-icon.svg";
 import mongodb from "../assets/icons/mongodb.svg";
 import Html from "../assets/icons/html.svg";
 import css from "../assets/icons/css.svg";
-import ts from "../assets/icons/typescript.svg";
 import next from "../assets/icons/next.png";
 import native from "../assets/icons/native.svg";
 import Redux from "../assets/icons/redux.svg";
 import Git from "../assets/icons/git.svg";
 import Postman from "../assets/icons/postman.svg";
-import heroku from "../assets/icons/heroku.svg";
-import netlify from "../assets/icons/netlify.svg";
 import Tailwind from "../assets/icons/tailwind.png";
 import visualstudio from "../assets/icons/visual-studio-code.svg";
 import sass from "../assets/icons/sass.svg";
@@ -62,16 +59,6 @@ const languages = [
     level: "65",
   },
   {
-    icon: ts,
-    name: "TypeScript",
-    level: "60",
-  },
-  {
-    icon: next,
-    name: "Next.js ",
-    level: "65",
-  },
-  {
     icon: bt,
     name: "Bootstrap",
     level: "60",
@@ -85,11 +72,6 @@ const languages = [
     icon: Tailwind,
     name: "Tailwind Css",
     level: "65",
-  },
-  {
-    icon: netlify,
-    name: "Netlify",
-    level: "60",
   },
 ];
 
@@ -128,11 +110,6 @@ const tools = [
     icon: visualstudio,
     name: "VisualStudio",
     level: "73",
-  },
-  {
-    icon: heroku,
-    name: "Heroku",
-    level: "60",
   },
 ];
 export { tools, languages };
