@@ -1,65 +1,52 @@
 .sidebar__avatar {
-    height: 90px;
-    width: 90px;
-    object-fit: contain;
-    border-radius: 50px;
-  }
-  .sidebar__icon {
-    width: 25px;
-    height: 25px;
-  }
-  .sidebar__name {
-    font-weight: 200;
-    margin: 20px 0;
-    font-size: 1.1rem;
-    color: #ced4da;
-  }
-  .sidebar__name > span {
-    font-weight: bold;
-  }
-  .sidebar__item {
-    margin-bottom: 6px;
-    padding-top: 6px;
-    height: 40px;
-    font-size: 1rem;
-    border-radius: 30px;
-    color: #b8bdc5;
-  }
-  .sidebar__title {
-    border-radius: 3px;
-    font-size: 1rem;
-    font-weight: 900;
-    color: #b8bdc5;
-    background-color: #242c37;
-  }
-  .MuiSvgIcon-root {
-    color: #5d7290 !important;
-  }
-  .MuiSvgIcon-root:hover {
-    color: #eb4949 !important;
-  }
-  .sidebar__social-icons {
-    padding: 2px 6px;
-    color: #b8bdc5;
-  }
-  .sidebar__github:hover a {
-    color: #fd4d4d;
-  }
-  .sidebar__contact {
-    padding: 2px 0;
-    margin-top: 5px;
-    margin: 20px -15px;
-    color: #b8bdc5;
-  }
-  .sidebar__email {
-    background-color: #242c37;
-    border-radius: 30px;
-    color: #fff;
-    margin: 15px 25px 0px;
-    cursor: pointer;
-    color: #b8bdc5;
-  }
-  .sidebar__email:hover {
-    background: #b8bdc5;
-    color: #0b0e11;
-  }
+  height: 90px;
+  width: 90px;
+  object-fit: contain;
+  border-radius: 50px;
+}
+.sidebar__icon {
+  width: 25px;
+  height: 25px;
+}
+.sidebar__name {
+  font-weight: 200;
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+.sidebar__name > span {
+  font-weight: bold;
+}
+.sidebar__item {
+  margin-bottom: 6px;
+  padding-top: 6px;
+  height: 40px;
+  font-size: 1rem;
+  border-radius: 30px;
+}
+.sidebar__title {
+  border-radius: 2px;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.MuiSvgIcon-root {
+  color: #494949 !important;
+}
+.sidebar__social-icons {
+  padding: 2px 6px;
+}
+.sidebar__contact {
+  padding: 2px 0;
+  margin-top: 5px;
+  margin: 20px -15px;
+}
+.sidebar__email {
+  background-color: #f1f1f1;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  color: black;
+  margin: 15px 25px 0px;
+  cursor: pointer;
+}
+.sidebar__email:hover {
+  background: #b8bdc5;
+}

@@ -39,7 +39,7 @@ const Projects = () => {
       animate="visible"
       exit="exit"
     >
-      <div className="projects__navbar">
+      <div className="projects__navbar ">
         <div
           className={active === "All" && "projects__navbar-active"}
           onClick={() => {

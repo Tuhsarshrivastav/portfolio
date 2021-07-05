@@ -1,12 +1,15 @@
   html {
     scroll-behavior: smooth;
   }
+  *{
+    color: #494949;
+  }
 
   .loaderText {
     width: 50%;
   }
   body {
-    background: #0b0e11;
+    background: #fafafa;
     height: 100%;
     width: 50%;
     width: 100%;
@@ -15,7 +18,7 @@
   }
   a {
     text-decoration: none;
-    color: #b8bdc5;
+    color: gray;
   }
   a:hover {
     text-decoration: none;
@@ -28,16 +31,18 @@
   }
   .sidebar {
     max-height: 515px;
-    border-radius: 5px;
+    border-radius: 1px;
     padding: 25px 15px;
-    background-color: #151a21;
+    background-color: #ffffff;
     text-align: center;
+    border: 1px solid lightgray;
   }
   .app__main-content {
-    background-color: #151a21;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
     max-height: 510px;
     overflow-y: scroll;
-    border-radius: 5px;
+    border-radius: 1px;
     padding: 25px 15px;
   }
   .app__main-content::-webkit-scrollbar {

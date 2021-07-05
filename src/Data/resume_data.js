@@ -1,7 +1,6 @@
 import react from "../assets/icons/react.png";
 import js from "../assets/icons/javascript.svg";
 import bt from "../assets/icons/Bootsrap1.svg";
-import material from "../assets/icons/materialui.svg";
 import express from "../assets/icons/expressjs.png";
 import node from "../assets/icons/nodejs.svg";
 import firebase from "../assets/icons/firebase-icon.svg";
@@ -14,8 +13,6 @@ import Redux from "../assets/icons/redux.svg";
 import Git from "../assets/icons/git.svg";
 import Postman from "../assets/icons/postman.svg";
 import Tailwind from "../assets/icons/tailwind.png";
-import visualstudio from "../assets/icons/visual-studio-code.svg";
-import sass from "../assets/icons/sass.svg";
 
 const languages = [
   {
@@ -49,11 +46,6 @@ const languages = [
     level: "60",
   },
   {
-    icon: sass,
-    name: "Sass ",
-    level: "60",
-  },
-  {
     icon: next,
     name: "Next.js ",
     level: "65",
@@ -64,14 +56,9 @@ const languages = [
     level: "60",
   },
   {
-    icon: material,
-    name: "Material-UI",
-    level: "60",
-  },
-  {
     icon: Tailwind,
     name: "Tailwind Css",
-    level: "65",
+    level: "70",
   },
 ];
 
@@ -104,11 +91,6 @@ const tools = [
   {
     icon: Postman,
     name: "Postman",
-    level: "73",
-  },
-  {
-    icon: visualstudio,
-    name: "VisualStudio",
     level: "73",
   },
 ];
