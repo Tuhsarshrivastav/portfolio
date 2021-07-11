@@ -1,5 +1,5 @@
 .bar {
-  /* max-width: 90%; */
+  max-width: 90%;
   background-color: #f1f1f1;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -16,7 +16,7 @@
   border-radius: 5px;
   padding: 3px 10px;
   color: #494949;
-  border: 1px solid lightgray;
+  border: 1px solid #f1f1f1;
   font-size: 0.7rem;
-  font-weight: 900 !important;
+  font-weight: 600 !important;
 }

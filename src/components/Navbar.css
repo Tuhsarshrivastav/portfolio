@@ -4,16 +4,11 @@
 }
 .navbar__active {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 400;
   border-bottom: 2px solid lightgray;
 }
 .navbar__item {
   margin-right: 20px;
   text-decoration: none;
   cursor: pointer;
-  color: black;
-  font-weight: 600;
-}
-.navbar__item:hover {
-  color: #494949;
 }

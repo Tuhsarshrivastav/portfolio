@@ -1,59 +1,21 @@
 import profile from "../assets/profile.jpg";
 import resume from "../assets/resume.pdf";
-import { motion } from "framer-motion";
 import PlaceIcon from "@material-ui/icons/Place";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import Typewriter from "typewriter-effect";
 import "./Sidebar.css";
 const Sidebar = () => {
   const handleEmail = () => {
     window.open("mailto:ts3657@gmail.com");
   };
-  const sidebar_variant = {
-    hidden: {
-      x: "-20vw",
-    },
-    visible: {
-      x: 0,
 
-      transition: {
-        delay: 0.1,
-        duration: 1.5,
-        type: "spring",
-      },
-    },
-  };
   return (
-    <motion.div
-      className="sidebar"
-      variants={sidebar_variant}
-      initial="hidden"
-      animate="visible"
-    >
+    <div className="sidebar">
       <img src={profile} alt="Profile" className="sidebar__avatar" />
-      <div className="sidebar__name">
-        Tushar <span>Shrivastav</span>
-      </div>
-      <div className="sidebar__item sidebar__title">
-        <Typewriter
-          options={{
-            autoStart: true,
-            loop: true,
-          }}
-          onInit={(typewriter) => {
-            typewriter
-              .typeString("Web-Developer")
-              .pauseFor(2000)
-              .deleteAll()
-              .typeString("Mobile-Developer")
-              .deleteAll()
-              .start();
-          }}
-        />
-      </div>
-      <a style={{ fontWeight: "bold" }} href={resume} download="resume.pdf">
+      <div className="sidebar__name">Tushar Shrivastav</div>
+      <div className="sidebar__item sidebar__title">JavaScript Developer</div>
+      <a href={resume} download="resume.pdf">
         <div className="sidebar__item sidebar__resume">Resume</div>
       </a>
       <figure className="my-2 sidebar__social-icons ">
@@ -72,30 +34,28 @@ const Sidebar = () => {
       </figure>
       <div className="sidebar__contact">
         <div className="sidebar__item sidebar__github ">
-          <a
-            style={{ fontWeight: "bold" }}
-            href="https://github.com/Tuhsarshrivastav"
-          >
+          <a href="https://github.com/Tuhsarshrivastav">
             <GitHubIcon
               style={{ marginRight: "4px" }}
               className="sidebar__icon"
             />{" "}
-            Github
           </a>
+          Github
         </div>
         <div
           className="sidebar__item"
-          style={{ cursor: "pointer", fontWeight: "bold" }}
+          style={{ cursor: "pointer", marginTop: "-2px" }}
         >
           &nbsp;
           <PlaceIcon style={{ fontSize: "30px", marginRight: "2px" }} />
           Jabalpur
         </div>
       </div>
+
       <div className="sidebar__item sidebar__email" onClick={handleEmail}>
         Email Me
       </div>
-    </motion.div>
+    </div>
   );
 };
 export default Sidebar;

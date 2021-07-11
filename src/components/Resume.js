@@ -1,45 +1,30 @@
-import React from "react";
 import Bar from "./Bar";
-import { motion } from "framer-motion";
 import { tools, languages } from "../Data/resume_data";
 import "./Resume.css";
-const resume_variants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-    transition: {
-      delay: 0.1,
-      duration: 1.5,
-    },
-  },
-  exit: {
-    opacity: 0,
-    transition: {
-      ease: "easeInOut",
-    },
-  },
-};
+import { motion } from "framer-motion";
+
 const Resume = () => {
   return (
     <motion.div
       className="container resume"
-      variants={resume_variants}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.5, duration: 1 }}
     >
       <div className="row ">
         <div className="col-lg-6 resume-card">
           <h4 className="resume-card__heading">Who I'm</h4>
           <p
-            style={{ color: "#494949", fontSize: "18px", fontWeight: "400" }}
+            style={{
+              color: "#494949",
+              fontSize: "16px",
+              fontWeight: "400",
+            }}
             className="resume-card__details"
           >
-            Hello I'm Tushar Shrivastav A full stack developer living in
-            jabalpur I specialise in create full stack web and mobile apps using
-            Mern stack and react native ...
+            Hy I' am Tushar Shrivastav A full stack developer / student living
+            in jabalpur I specialise in creating full stack web and mobile apps
+            using modern frontend backend javascript stacks
           </p>
         </div>
         <div className="col-lg-6 resume-card">
@@ -60,16 +45,16 @@ const Resume = () => {
         <div className="col-lg-6 resume-languages ">
           <h5 className="reume-language__heading">Frontend</h5>
           <div className="mt-3 language">
-            {languages.map((language) => (
-              <Bar value={language} key={language.id} />
+            {languages.map((language, index) => (
+              <Bar value={language} key={index} />
             ))}
           </div>
         </div>
         <div className="col-lg-6 resume-languages ">
-          <h5 className="reume-language__heading margin ">Backend</h5>
+          <h5 className="reume-language__heading ">Backend</h5>
           <div className="mt-3  tools">
-            {tools.map((tool) => (
-              <Bar value={tool} key={tool.id} />
+            {tools.map((tool, index) => (
+              <Bar value={tool} key={index} />
             ))}
           </div>
         </div>

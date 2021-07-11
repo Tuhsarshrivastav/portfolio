@@ -11,7 +11,7 @@
 }
 .resume-card__heading,
 .reume-language__heading {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 700;
 }
 .language {
@@ -22,7 +22,6 @@
 }
 .resume {
   padding-top: 15px;
-  color: black;
   scroll-behavior: smooth;
 }
 .resume::-webkit-scrollbar {
@@ -34,13 +33,13 @@
 }
 .language {
   overflow-y: scroll;
-  max-height: 195px;
+  max-height: 212px;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 .tools {
   overflow-y: scroll;
-  max-height: 195px;
+  max-height: 212px;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -54,7 +53,6 @@
 
 .resume-card__details {
   font-size: 0.9rem;
-
 }
 .resume-card__details::-webkit-scrollbar {
   display: none;
@@ -63,5 +61,11 @@
   margin-top: -10px;
   font-size: 0.9rem;
   max-height: 102px;
-  color:#494949 ;
+  color: #494949;
+}
+.resume-card__name {
+  margin-top: -3px;
+}
+.resume-card__info {
+  margin-top: -15px;
 }

@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import './Navbar.css'
+import "./Navbar.css";
 const Navbar = () => {
   const [active, setActive] = useState("");
 
@@ -10,29 +9,9 @@ const Navbar = () => {
     if (currentURL.endsWith("/")) setActive("Skills");
     else if (currentURL.endsWith("/projects")) setActive("Projects");
   }, [active]);
-  const navbar_variant = {
-    hidden: {
-      y: "-30vh",
-      opacity: 0,
-    },
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        delay: 0.2,
-        duration: 1.5,
 
-        type: "spring",
-      },
-    },
-  };
   return (
-    <motion.div
-      className="navbar"
-      variants={navbar_variant}
-      initial="hidden"
-      animate="visible"
-    >
+    <div className="navbar">
       <div className="navbar__active">{active}</div>
 
       <div className="navbar__items">
@@ -51,7 +30,7 @@ const Navbar = () => {
           </Link>
         ) : null}
       </div>
-    </motion.div>
+    </div>
   );
 };
 

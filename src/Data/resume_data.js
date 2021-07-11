@@ -7,12 +7,15 @@ import firebase from "../assets/icons/firebase-icon.svg";
 import mongodb from "../assets/icons/mongodb.svg";
 import Html from "../assets/icons/html.svg";
 import css from "../assets/icons/css.svg";
-import next from "../assets/icons/next.png";
+import next from "../assets/icons/nextjs-outline.svg";
 import native from "../assets/icons/native.svg";
 import Redux from "../assets/icons/redux.svg";
 import Git from "../assets/icons/git.svg";
 import Postman from "../assets/icons/postman.svg";
 import Tailwind from "../assets/icons/tailwind.png";
+import materialui from "../assets/icons/materialui.svg";
+import typescript from "../assets/icons/typescript-icon.svg";
+import grapqh from "../assets/icons/graphql.svg";
 
 const languages = [
   {
@@ -27,7 +30,7 @@ const languages = [
   },
   {
     icon: js,
-    name: "JavaScript ES6",
+    name: "JavaScript",
     level: "75",
   },
   {
@@ -48,6 +51,11 @@ const languages = [
   {
     icon: next,
     name: "Next.js ",
+    level: "65",
+  },
+  {
+    icon: materialui,
+    name: "Materialui",
     level: "65",
   },
   {
@@ -76,12 +84,22 @@ const tools = [
   {
     icon: mongodb,
     name: "Mongodb",
-    level: "55",
+    level: "60",
   },
   {
     icon: firebase,
     name: "Firebase ",
     level: "60",
+  },
+  {
+    icon: typescript,
+    name: "Typescript",
+    level: "65",
+  },
+  {
+    icon: grapqh,
+    name: "Graphql",
+    level: "65",
   },
   {
     icon: Git,

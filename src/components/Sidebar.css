@@ -12,9 +12,7 @@
   font-weight: 200;
   margin: 20px 0;
   font-size: 1.1rem;
-}
-.sidebar__name > span {
-  font-weight: bold;
+  color: #494949;
 }
 .sidebar__item {
   margin-bottom: 6px;
@@ -26,7 +24,7 @@
 .sidebar__title {
   border-radius: 2px;
   font-size: 1rem;
-  font-weight: 900;
+  background-color: #fafafa;
 }
 .MuiSvgIcon-root {
   color: #494949 !important;
@@ -41,12 +39,10 @@
 }
 .sidebar__email {
   background-color: #f1f1f1;
-  border: 1px solid lightgray;
   border-radius: 30px;
-  color: black;
   margin: 15px 25px 0px;
   cursor: pointer;
 }
-.sidebar__email:hover {
-  background: #b8bdc5;
+.resume-card__title{
+  font-size: 17px;
 }

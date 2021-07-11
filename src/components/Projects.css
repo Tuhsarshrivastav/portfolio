@@ -2,7 +2,7 @@
   color: gray;
 }
 .projects {
-  max-height: 69vh;
+  max-height: 65vh;
   padding-top: 20px;
   overflow-y: scroll;
 }
@@ -43,7 +43,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 550;
 }
 /* for project nav  */
 .projects__navbar {
@@ -52,7 +51,6 @@
   margin-bottom: -3px;
   max-width: 150%;
   overflow-x: scroll;
-  font-weight: bold;
 }
 .projects__navbar::-webkit-scrollbar {
   display: none;
