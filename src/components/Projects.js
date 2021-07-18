@@ -13,7 +13,6 @@ const Projects = () => {
     setProjects(new_array);
     setActive(name);
   };
-
   return (
     <motion.div
       className="container projects"
@@ -21,7 +20,7 @@ const Projects = () => {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5, duration: 1 }}
     >
-      <div className="projects__navbar ">
+      <div className="projects__navbar">
         <div
           className={active === "All" && "projects__navbar-active"}
           onClick={() => {

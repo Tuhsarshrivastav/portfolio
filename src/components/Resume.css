@@ -11,8 +11,9 @@
 }
 .resume-card__heading,
 .reume-language__heading {
-  font-size: 0.9rem;
-  font-weight: 700;
+  color: rgb(73, 73, 73);
+  font-size: 16px;
+  font-weight: 400;
 }
 .language {
   overflow-y: scroll;

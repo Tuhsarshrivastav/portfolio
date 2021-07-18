@@ -33,16 +33,17 @@
   transform: scale(1.05);
 }
 .projectCard__icon {
-  width: 25px;
-  height: 25px;
+  width: 23px;
+  height: 23px;
   margin-right: 5px;
 }
 .projectCard__title {
-  margin-top: 10px;
+  padding-top: 10px;
   font-size: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 400;
 }
 /* for project nav  */
 .projects__navbar {

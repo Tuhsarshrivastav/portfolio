@@ -1,4 +1,3 @@
-import GitHubIcon from "@material-ui/icons/GitHub";
 import { motion } from "framer-motion";
 
 const ProjectCard = ({ project }) => {
@@ -22,16 +21,7 @@ const ProjectCard = ({ project }) => {
               className="projectCard__image"
             />
           </a>
-          <div className="projectCard__title">
-            <a
-              href={project.github_url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GitHubIcon className="projectCard__icon " />
-            </a>
-            {project.name}
-          </div>
+          <div className="projectCard__title">{project.name}</div>
         </figure>
       </motion.div>
     </>

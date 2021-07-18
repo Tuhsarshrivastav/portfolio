@@ -14,8 +14,6 @@ import Git from "../assets/icons/git.svg";
 import Postman from "../assets/icons/postman.svg";
 import Tailwind from "../assets/icons/tailwind.png";
 import materialui from "../assets/icons/materialui.svg";
-import typescript from "../assets/icons/typescript-icon.svg";
-import grapqh from "../assets/icons/graphql.svg";
 
 const languages = [
   {
@@ -90,16 +88,6 @@ const tools = [
     icon: firebase,
     name: "Firebase ",
     level: "60",
-  },
-  {
-    icon: typescript,
-    name: "Typescript",
-    level: "65",
-  },
-  {
-    icon: grapqh,
-    name: "Graphql",
-    level: "65",
   },
   {
     icon: Git,

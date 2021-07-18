@@ -14,7 +14,9 @@ const Sidebar = () => {
     <div className="sidebar">
       <img src={profile} alt="Profile" className="sidebar__avatar" />
       <div className="sidebar__name">Tushar Shrivastav</div>
-      <div className="sidebar__item sidebar__title">JavaScript Developer</div>
+      <div className="sidebar__item sidebar__title">
+        <p>Web-Developer</p>
+      </div>
       <a href={resume} download="resume.pdf">
         <div className="sidebar__item sidebar__resume">Resume</div>
       </a>
