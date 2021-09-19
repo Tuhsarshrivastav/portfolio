@@ -1,0 +1,55 @@
+.resume {
+  padding-top: 15px;
+  color: white;
+}
+.resume::-webkit-scrollbar {
+  display: none;
+}
+.resume {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.resume-card__heading,
+.reume-language__heading {
+  color: rgb(73, 73, 73);
+  font-size: 17px;
+  font-weight: 400;
+}
+.language {
+  overflow-y: scroll;
+  max-height: 195px;
+}
+.resume {
+  padding-top: 15px;
+  scroll-behavior: smooth;
+}
+.language {
+  overflow-y: scroll;
+  max-height: 213px;
+}
+.tools {
+  overflow-y: scroll;
+  max-height: 213px;
+}
+
+.resume-card__details {
+  font-size: 0.9rem;
+  width: 318px;
+}
+.resume-card__info {
+  margin-top: -10px;
+  font-size: 0.9rem;
+  max-height: 102px;
+  color: #494949;
+}
+.resume-card__name {
+  margin-top: -3px;
+}
+.resume-card__info {
+  margin-top: -15px;
+}
+@media (max-width: 600px) {
+  .resume-card__details {
+    width: inherit;
+  }
+}

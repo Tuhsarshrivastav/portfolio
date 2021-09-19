@@ -1,0 +1,116 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  color: #494949;
+}
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #f1f1f1 #ffffff;
+}
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  border: 3px solid #ffffff;
+}
+.loaderText {
+  width: 50%;
+}
+body {
+  background-color: #fafafa;
+  height: 100%;
+  width: 50%;
+  width: 100%;
+  overflow-y: hidden;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+a:hover {
+  text-decoration: none;
+}
+.app__container {
+  padding: 65px;
+}
+.app__row {
+  height: 80vh;
+}
+.sidebar {
+  height: 517px;
+  padding: 25px 15px;
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+}
+.app__main-content {
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  max-height: 517px;
+  overflow-y: scroll;
+  padding: 25px 15px;
+}
+.app__main-content::-webkit-scrollbar {
+  display: none;
+}
+.app__main-content {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+@media (max-width: 991px) {
+  .app__main-content {
+    margin: 30px;
+    height: 100%;
+  }
+  body {
+    overflow-y: scroll;
+  }
+}
+@media (max-width: 375px) {
+  .margin {
+    margin-top: 18px !important;
+  }
+  .backend {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 414px) {
+  .margin {
+    margin-top: 18px !important;
+  }
+  .backend {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .app__main-content {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  body {
+    overflow-y: scroll;
+  }
+  .backend {
+    margin-top: 10px;
+  }
+
+  .navbar__active {
+    font-size: 1.5rem;
+  }
+
+  .navbar__item {
+    font-size: 1rem;
+  }
+}

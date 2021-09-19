@@ -1,0 +1,113 @@
+.projects__navbar-active {
+  color: gray;
+}
+.projects {
+  max-height: 65vh;
+  padding-top: 20px;
+  overflow-y: scroll;
+}
+.projects::-webkit-scrollbar {
+  display: none;
+}
+.projects {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.projectCard__wrapper {
+  overflow: hidden;
+  height: 100%;
+  margin: 15px 0px;
+  width: 100%;
+  height: 89%;
+  border: 1px solid lightgray;
+  border-radius: 1px;
+}
+.projectCard__image {
+  width: 100%;
+  height: 125px;
+  transition: background-color 0.3s ease;
+  margin-top: -15px;
+}
+.projectCard__icon {
+  width: 23px;
+  height: 23px;
+  margin-right: 5px;
+}
+.projectCard__title {
+  padding-top: 10px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  border-top: 1px solid lightgray;
+}
+/* for project nav  */
+.projects__navbar {
+  display: flex;
+  margin-top: -8px;
+  margin-bottom: -3px;
+  max-width: 150%;
+  overflow-x: scroll;
+}
+.projects__navbar::-webkit-scrollbar {
+  display: none;
+}
+.projects__navbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.projects__navbar > div {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.image {
+  position: relative;
+  width: 100%;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}

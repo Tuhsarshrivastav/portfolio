@@ -1,0 +1,55 @@
+.sidebar__avatar {
+  height: 90px;
+  width: 90px;
+  object-fit: contain;
+  border-radius: 50px;
+}
+.sidebar__icon {
+  width: 25px;
+  height: 25px;
+}
+.sidebar__name {
+  font-weight: 400;
+  margin: 20px 0;
+  font-size: 1.1rem;
+  color: #494949;
+}
+.sidebar__item {
+  margin-bottom: 6px;
+  padding-top: 6px;
+  height: 40px;
+  font-size: 1rem;
+  border-radius: 30px;
+}
+.sidebar__title {
+  border-radius: 2px;
+  font-size: 1rem;
+  background-color: #fafafa;
+}
+.MuiSvgIcon-root {
+  color: #494949 !important;
+}
+.sidebar__social-icons {
+  padding: 2px 6px;
+}
+.sidebar__contact {
+  padding: 2px 0;
+  margin-top: 5px;
+  margin: 20px -15px;
+}
+.sidebar__resume{
+ font-size: 17px;
+}
+.sidebar__email {
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  margin: 15px 25px 0px;
+  cursor: pointer;
+}
+.sidebar__email:hover {
+  transform: scale(1.05);
+  transition: transform 0.9s ease-in-out;
+}
+.resume-card__title {
+  font-size: 17px;
+}
