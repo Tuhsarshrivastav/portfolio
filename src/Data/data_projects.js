@@ -116,6 +116,7 @@ const data_projects = [
     deployed_url: "https://fullstack-library123.herokuapp.com",
     category: ["node.js"],
   },
+
   {
     name: "Netflix-Clone",
     image: "/projects_images/netflix.jpg",
@@ -144,6 +145,12 @@ const data_projects = [
     name: "Snapchat-Clone",
     image: "/projects_images/Snapchat.jpg",
     deployed_url: "https://snapchat-clone-43346.web.app/",
+    category: ["react.js"],
+  },
+  {
+    name: "Gmail-Clone",
+    image: "/projects_images/GmailClone.jpg",
+    deployed_url: "https://clone-6125a.web.app/",
     category: ["react.js"],
   },
   {

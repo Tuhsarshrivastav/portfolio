@@ -40,25 +40,14 @@ const languages = [
     level: "75",
   },
   {
-    icon: "icons/angular.svg",
-    name: "Angular",
+    icon: "icons/reactpwa.png",
+    name: "React-PWA",
     level: "55",
   },
   {
-    icon: "icons/vuejs.svg",
-    name: "Vuejs",
-    level: "55",
-  },
-  {
-    icon: "icons/sass-1.svg",
-    name: "Sass",
-    level: "55",
-  },
-
-  {
-    icon: "icons/bootstrap-4.svg",
-    name: "Bootstrap",
-    level: "60",
+    icon: "icons/react-bootstrap.jpg",
+    name: "React-Bootstrap",
+    level: "70",
   },
   {
     icon: "icons/tailwindcss.svg",
