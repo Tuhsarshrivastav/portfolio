@@ -40,11 +40,6 @@ const languages = [
     level: "75",
   },
   {
-    icon: "icons/reactpwa.png",
-    name: "React-PWA",
-    level: "55",
-  },
-  {
     icon: "icons/react-bootstrap.jpg",
     name: "React-Bootstrap",
     level: "70",
