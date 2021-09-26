@@ -35,6 +35,11 @@ const languages = [
     level: "65",
   },
   {
+    icon: "icons/gatsby.svg",
+    name: "Gatsby",
+    level: "60",
+  },
+  {
     icon: "icons/typescript.svg",
     name: "TypeScript",
     level: "75",
