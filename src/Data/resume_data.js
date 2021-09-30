@@ -45,6 +45,11 @@ const languages = [
     level: "75",
   },
   {
+    icon: "icons/jamstack.svg",
+    name: "Jamstack",
+    level: "75",
+  },
+  {
     icon: "icons/react-bootstrap.jpg",
     name: "React-Bootstrap",
     level: "70",
