@@ -30,6 +30,16 @@ const languages = [
     level: "75",
   },
   {
+    icon: "icons/typescript.svg",
+    name: "TypeScript",
+    level: "75",
+  },
+  {
+    icon: "icons/angular.svg",
+    name: "Angular",
+    level: "65",
+  },
+  {
     icon: "icons/next-js.svg",
     name: "Next.js",
     level: "65",
@@ -40,8 +50,8 @@ const languages = [
     level: "60",
   },
   {
-    icon: "icons/typescript.svg",
-    name: "TypeScript",
+    icon: "icons/jamstack.svg",
+    name: "JamStack",
     level: "75",
   },
   {

@@ -2,7 +2,7 @@ const Aboutskills = [
   {
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using html, css and react.js/redux",
+      "I can build a beautiful and scalable SPA using html, css and react.js/angular",
   },
   {
     title: "Backend  Development",
@@ -11,7 +11,7 @@ const Aboutskills = [
   },
   {
     title: "Fullstack Development",
-    about: "I can develop fullstack web application using mern-stack",
+    about: "I can develop fullstack web application using mern-stack/mean-stack",
   },
   {
     title: "MobileApp Development",

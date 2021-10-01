@@ -1,4 +1,3 @@
-
 import PlaceIcon from "@material-ui/icons/Place";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
