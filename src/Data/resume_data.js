@@ -45,11 +45,6 @@ const languages = [
     level: "75",
   },
   {
-    icon: "icons/jamstack.svg",
-    name: "Jamstack",
-    level: "75",
-  },
-  {
     icon: "icons/react-bootstrap.jpg",
     name: "React-Bootstrap",
     level: "70",
@@ -87,11 +82,6 @@ const tools = [
     icon: "icons/mysql2.png",
     name: "MySQL",
     level: "58",
-  },
-  {
-    icon: "icons/firebase-icon.svg",
-    name: "Firebase ",
-    level: "60",
   },
   {
     icon: "icons/graphql.svg",
