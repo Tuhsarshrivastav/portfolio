@@ -2,7 +2,7 @@ const Aboutskills = [
   {
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using html, css and react.js/angular",
+      "I can build a beautiful and scalable SPA using html, css , javascript, and react.js/angular",
   },
   {
     title: "Backend  Development",

@@ -44,6 +44,18 @@ const Projects = () => {
           React
         </div>
         <div
+          className={active === "vue.js" && "projects__navbar-active"}
+          onClick={() => handleFilterCategory("vue.js")}
+        >
+          Vue
+        </div>
+        <div
+          className={active === "angular" && "projects__navbar-active"}
+          onClick={() => handleFilterCategory("angular")}
+        >
+          Angular
+        </div>
+        <div
           className={active === "nextjs" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("nextjs")}
         >

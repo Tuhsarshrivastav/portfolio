@@ -314,6 +314,27 @@ const data_projects = [
       "https://github.com/Tuhsarshrivastav/React_Native_Twitter_Clone",
     category: ["react-native"],
   },
+  {
+    name: "Amazon-Clone3",
+    image: "/projects_images/amazonclone4.jpg",
+    deployed_url:
+      "https://clone4-da95e.web.app/",
+    category: ["vue.js"],
+  },
+  {
+    name: "Google-Clone2",
+    image: "/projects_images/google2.jpg",
+    deployed_url:
+      "https://clone-fd66d.web.app/",
+    category: ["vue.js"],
+  },
+  {
+    name: "Amazon-Clone4",
+    image: "/projects_images/Amazon-Clone3.0.jpg",
+    deployed_url:
+      "https://clone-1b10f.web.app/",
+    category: ["angular"],
+  },
 ];
 
 export default data_projects;
