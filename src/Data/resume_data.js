@@ -15,14 +15,14 @@ const languages = [
     level: "75",
   },
   {
+    icon: "icons/typescript.svg",
+    name: "TypeScript",
+    level: "68",
+  },
+  {
     icon: "icons/react.png",
     name: "React.js",
     level: "80",
-  },
-  {
-    icon: "icons/redux.svg",
-    name: "Redux",
-    level: "60",
   },
   {
     icon: "icons/react.png",
@@ -30,9 +30,9 @@ const languages = [
     level: "70",
   },
   {
-    icon: "icons/typescript.svg",
-    name: "TypeScript",
-    level: "68",
+    icon: "icons/redux.svg",
+    name: "Redux",
+    level: "60",
   },
   {
     icon: "icons/angular.svg",
@@ -41,7 +41,7 @@ const languages = [
   },
   {
     icon: "icons/vue.svg",
-    name: "Vue",
+    name: "Vue.js",
     level: "48",
   },
   {
@@ -50,23 +50,8 @@ const languages = [
     level: "65",
   },
   {
-    icon: "icons/gatsby.svg",
-    name: "Gatsby",
-    level: "60",
-  },
-  {
-    icon: "icons/jamstack.svg",
-    name: "JamStack",
-    level: "60",
-  },
-  {
     icon: "icons/react-bootstrap.jpg",
     name: "React-Bootstrap",
-    level: "75",
-  },
-  {
-    icon: "icons/tailwindcss.svg",
-    name: "Tailwindcss",
     level: "75",
   },
   {
@@ -87,11 +72,6 @@ const tools = [
     icon: "icons/ExpressJs.png",
     name: "Express.js",
     level: "73",
-  },
-  {
-    icon: "icons/laravel.svg",
-    name: "Laravel",
-    level: "65",
   },
   {
     icon: "icons/mongodb.svg",
