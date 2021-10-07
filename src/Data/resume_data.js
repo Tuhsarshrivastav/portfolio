@@ -15,14 +15,24 @@ const languages = [
     level: "75",
   },
   {
-    icon: "icons/typescript.svg",
-    name: "TypeScript",
-    level: "68",
-  },
-  {
     icon: "icons/react.png",
     name: "React.js",
     level: "80",
+  },
+  {
+    icon: "icons/vue.svg",
+    name: "Vue.js",
+    level: "48",
+  },
+  {
+    icon: "icons/angular.svg",
+    name: "Angular",
+    level: "55",
+  },
+  {
+    icon: "icons/typescript.svg",
+    name: "TypeScript",
+    level: "68",
   },
   {
     icon: "icons/react.png",
@@ -34,16 +44,7 @@ const languages = [
     name: "Redux",
     level: "60",
   },
-  {
-    icon: "icons/angular.svg",
-    name: "Angular",
-    level: "55",
-  },
-  {
-    icon: "icons/vue.svg",
-    name: "Vue.js",
-    level: "48",
-  },
+
   {
     icon: "icons/next-js.svg",
     name: "Next.js",
@@ -67,11 +68,15 @@ const tools = [
     name: "Node.js ",
     level: "70",
   },
-
   {
     icon: "icons/ExpressJs.png",
     name: "Express.js",
     level: "73",
+  },
+  {
+    icon: "icons/deno-2.svg",
+    name: "Deno",
+    level: "53",
   },
   {
     icon: "icons/mongodb.svg",
