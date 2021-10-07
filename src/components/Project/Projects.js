@@ -28,26 +28,26 @@ const Projects = () => {
             setActive("All");
           }}
         >
-          All
+          All<span className='hide'>-Projects</span>
         </div>
         <div
-          style={{}}
+        
           className={active === "mern-stack" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("mern-stack")}
         >
-          Mern
+          Mern<span className='hide'>-Stack</span>
         </div>
         <div
           className={active === "react.js" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("react.js")}
         >
-          React
+          React.js
         </div>
         <div
           className={active === "vue.js" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("vue.js")}
         >
-          Vue
+          Vue.js
         </div>
         <div
           className={active === "angular" && "projects__navbar-active"}
@@ -59,19 +59,19 @@ const Projects = () => {
           className={active === "nextjs" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("nextjs")}
         >
-          Next
+          Next.js
         </div>
         <div
           className={active === "react-native" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("react-native")}
         >
-          Native
+          <span className='hide'>React-</span>Native
         </div>
         <div
           className={active === "node.js" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("node.js")}
         >
-          Node
+          Node<span className='hide'>-Express</span>
         </div>
       </div>
       <div className="row">

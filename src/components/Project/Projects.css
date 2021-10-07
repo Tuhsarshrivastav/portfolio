@@ -1,5 +1,5 @@
 .projects__navbar-active {
-  color: gray;
+  border-bottom: 1px solid #dbdbdb;
 }
 .projects {
   max-height: 65vh;

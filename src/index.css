@@ -85,6 +85,9 @@ a:hover {
   .backend {
     margin-top: 5px;
   }
+  .hide{
+    display: none;
+  }
 }
 @media (max-width: 414px) {
   .margin {
@@ -92,6 +95,9 @@ a:hover {
   }
   .backend {
     margin-top: 10px;
+  }
+  .hide{
+    display: none;
   }
 }
 @media (max-width: 600px) {
