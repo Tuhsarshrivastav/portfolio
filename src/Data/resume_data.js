@@ -93,11 +93,7 @@ const tools = [
     name: "GraphQL",
     level: "55",
   },
-  {
-    icon: "icons/aws-logo.svg",
-    name: "Aws",
-    level: "55",
-  },
+ 
   {
     icon: "icons/firebase-1.svg",
     name: "Firebase",
