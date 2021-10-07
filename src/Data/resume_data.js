@@ -51,14 +51,14 @@ const languages = [
     level: "65",
   },
   {
-    icon: "icons/react-bootstrap.jpg",
-    name: "React-Bootstrap",
-    level: "75",
+    icon: "icons/gatsby.svg",
+    name: "Gatsby",
+    level: "55",
   },
   {
-    icon: "icons/material-ui-1.svg",
-    name: "Material-Ui",
-    level: "65",
+    icon: "icons/jamstack.svg",
+    name: "Jamstack",
+    level: "55",
   },
 ];
 
@@ -91,6 +91,16 @@ const tools = [
   {
     icon: "icons/graphql.svg",
     name: "GraphQL",
+    level: "55",
+  },
+  {
+    icon: "icons/aws-logo.svg",
+    name: "Aws",
+    level: "55",
+  },
+  {
+    icon: "icons/firebase-1.svg",
+    name: "Firebase",
     level: "55",
   },
   {
