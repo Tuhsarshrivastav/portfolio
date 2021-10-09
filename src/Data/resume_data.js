@@ -20,6 +20,22 @@ const languages = [
     level: "80",
   },
   {
+    icon: "icons/react-native.png",
+    name: "React-Native",
+    level: "70",
+  },
+
+  {
+    icon: "icons/next-js.svg",
+    name: "Next.js",
+    level: "65",
+  },
+  {
+    icon: "icons/typescript.svg",
+    name: "TypeScript",
+    level: "68",
+  },
+  {
     icon: "icons/vue.svg",
     name: "Vue.js",
     level: "48",
@@ -30,25 +46,9 @@ const languages = [
     level: "55",
   },
   {
-    icon: "icons/typescript.svg",
-    name: "TypeScript",
-    level: "68",
-  },
-  {
-    icon: "icons/react.png",
-    name: "React-Native",
-    level: "70",
-  },
-  {
     icon: "icons/redux.svg",
     name: "Redux",
     level: "60",
-  },
-
-  {
-    icon: "icons/next-js.svg",
-    name: "Next.js",
-    level: "65",
   },
   {
     icon: "icons/gatsby.svg",
@@ -56,8 +56,8 @@ const languages = [
     level: "55",
   },
   {
-    icon: "icons/jamstack.svg",
-    name: "Jamstack",
+    icon: "icons/Electron.png",
+    name: "Electron.js",
     level: "55",
   },
 ];
@@ -93,7 +93,7 @@ const tools = [
     name: "GraphQL",
     level: "55",
   },
- 
+
   {
     icon: "icons/firebase-1.svg",
     name: "Firebase",

@@ -38,6 +38,18 @@ const Projects = () => {
           Mern<span className='hide'>-Stack</span>
         </div>
         <div
+          className={active === "react-native" && "projects__navbar-active"}
+          onClick={() => handleFilterCategory("react-native")}
+        >
+          <span className='hide'>React-</span>Native
+        </div>
+        <div
+          className={active === "node.js" && "projects__navbar-active"}
+          onClick={() => handleFilterCategory("node.js")}
+        >
+          Node<span className='hide'>-Express</span>
+        </div>
+        <div
           className={active === "react.js" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("react.js")}
         >
@@ -61,18 +73,7 @@ const Projects = () => {
         >
           Next.js
         </div>
-        <div
-          className={active === "react-native" && "projects__navbar-active"}
-          onClick={() => handleFilterCategory("react-native")}
-        >
-          <span className='hide'>React-</span>Native
-        </div>
-        <div
-          className={active === "node.js" && "projects__navbar-active"}
-          onClick={() => handleFilterCategory("node.js")}
-        >
-          Node<span className='hide'>-Express</span>
-        </div>
+       
       </div>
       <div className="row">
         {projects.map((project, index) => (
