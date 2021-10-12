@@ -6,6 +6,12 @@ const data_projects = [
     category: ["mern-stack"],
   },
   {
+    name: "PizzaShop2.0",
+    image: "/projects_images/Pizza Shop2.jpg",
+    deployed_url: "https://mern-pizzashop.herokuapp.com/",
+    category: ["mern-stack"],
+  },
+  {
     name: "Flipkart-Clone",
     image: "/projects_images/flipkart.jpg",
     deployed_url: "https://flipkart-clone1.herokuapp.com/",
