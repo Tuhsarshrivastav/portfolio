@@ -79,21 +79,6 @@ const tools = [
     level: "53",
   },
   {
-    icon: "icons/nestjs.svg",
-    name: "Nest.js",
-    level: "53",
-  },
-  {
-    icon: "icons/adonisjs.svg",
-    name: "Adonis.js",
-    level: "53",
-  },
-  {
-    icon: "icons/meteor.svg",
-    name: "Meteor.js",
-    level: "53",
-  },
-  {
     icon: "icons/mongodb.svg",
     name: "Mongodb",
     level: "60",
