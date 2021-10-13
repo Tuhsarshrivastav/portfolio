@@ -73,6 +73,12 @@ const Projects = () => {
         >
           Next.js
         </div>
+        <div
+          className={active === "games" && "projects__navbar-active"}
+          onClick={() => handleFilterCategory("games")}
+        >
+          Games
+        </div>
        
       </div>
       <div className="row">

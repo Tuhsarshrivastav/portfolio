@@ -341,6 +341,20 @@ const data_projects = [
       "https://clone-1b10f.web.app/",
     category: ["angular"],
   },
+  {
+    name: "SnakeGame",
+    image: "/projects_images/snakegame.jpg",
+    deployed_url:
+      "https://tuhsarshrivastav.github.io/Javascript_SnakeGame/",
+    category: ["games"],
+  },
+  {
+    name: "iDragonGame",
+    image: "/projects_images/iDragonGame.jpg",
+    deployed_url:
+      "https://tuhsarshrivastav.github.io/Javascript_dragon_game/",
+    category: ["games"],
+  },
 ];
 
 export default data_projects;

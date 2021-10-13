@@ -84,6 +84,16 @@ const tools = [
     level: "53",
   },
   {
+    icon: "icons/adonisjs.svg",
+    name: "Adonis.js",
+    level: "53",
+  },
+  {
+    icon: "icons/meteor.svg",
+    name: "Meteor.js",
+    level: "53",
+  },
+  {
     icon: "icons/mongodb.svg",
     name: "Mongodb",
     level: "60",
@@ -107,6 +117,11 @@ const tools = [
   {
     icon: "icons/git.svg",
     name: "Git",
+    level: "60",
+  },
+  {
+    icon: "icons/postman.svg",
+    name: "Postman",
     level: "60",
   },
 ];
