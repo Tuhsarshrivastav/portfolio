@@ -9,11 +9,13 @@
   padding: 19px;
   padding-top: 30px;
   margin: 10px 0;
+  color: #6e7e91;
+  line-height: 1.4;
 }
 
 .about__container {
   background-color: #fafafa;
-  padding: 27px 20px;
+  padding: 11px 20px;
 }
 
 .about__heading {
@@ -33,9 +35,10 @@
 }
 .skill-card-body {
   margin-left: 15px;
+  max-height: 70px;
 }
 .skill_card__content {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 10px;
   color: #6e7e91;
 }
