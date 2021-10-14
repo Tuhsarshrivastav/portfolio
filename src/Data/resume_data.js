@@ -93,7 +93,11 @@ const tools = [
     name: "GraphQL",
     level: "55",
   },
-
+  {
+    icon: "icons/apollo-graphql-compact.svg",
+    name: "Apollo-Client",
+    level: "55",
+  },
   {
     icon: "icons/firebase-1.svg",
     name: "Firebase",
@@ -107,6 +111,16 @@ const tools = [
   {
     icon: "icons/postman.svg",
     name: "Postman",
+    level: "60",
+  },
+  {
+    icon: "icons/webpack-icon.svg",
+    name: "Webpack",
+    level: "60",
+  },
+  {
+    icon: "icons/jira-3.svg",
+    name: "Jira",
     level: "60",
   },
 ];
