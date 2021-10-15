@@ -28,26 +28,25 @@ const Projects = () => {
             setActive("All");
           }}
         >
-          All<span className='hide'>-Projects</span>
+          All<span className="hide">-Projects</span>
         </div>
         <div
-        
           className={active === "mern-stack" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("mern-stack")}
         >
-          Mern<span className='hide'>-Stack</span>
+          Mern<span className="hide">-Stack</span>
         </div>
         <div
           className={active === "react-native" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("react-native")}
         >
-          <span className='hide'>React-</span>Native
+          <span className="hide">React-</span>Native
         </div>
         <div
           className={active === "node.js" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("node.js")}
         >
-          Node<span className='hide'>-Express</span>
+          Node<span className="hide">-Express</span>
         </div>
         <div
           className={active === "react.js" && "projects__navbar-active"}
@@ -56,30 +55,11 @@ const Projects = () => {
           React.js
         </div>
         <div
-          className={active === "vue.js" && "projects__navbar-active"}
-          onClick={() => handleFilterCategory("vue.js")}
-        >
-          Vue.js
-        </div>
-        <div
-          className={active === "angular" && "projects__navbar-active"}
-          onClick={() => handleFilterCategory("angular")}
-        >
-          Angular
-        </div>
-        <div
           className={active === "nextjs" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("nextjs")}
         >
           Next.js
         </div>
-        <div
-          className={active === "games" && "projects__navbar-active"}
-          onClick={() => handleFilterCategory("games")}
-        >
-          Games
-        </div>
-       
       </div>
       <div className="row">
         {projects.map((project, index) => (

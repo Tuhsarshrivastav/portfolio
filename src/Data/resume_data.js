@@ -24,7 +24,6 @@ const languages = [
     name: "React-Native",
     level: "70",
   },
-
   {
     icon: "icons/next-js.svg",
     name: "Next.js",
@@ -36,19 +35,14 @@ const languages = [
     level: "68",
   },
   {
-    icon: "icons/vue.svg",
-    name: "Vue.js",
-    level: "48",
-  },
-  {
-    icon: "icons/angular.svg",
-    name: "Angular",
-    level: "55",
-  },
-  {
     icon: "icons/redux.svg",
     name: "Redux",
     level: "60",
+  },
+  {
+    icon: "icons/reactbootsrap.png",
+    name: "React-Bootstrap",
+    level: "75",
   },
   {
     icon: "icons/gatsby.svg",
@@ -74,11 +68,6 @@ const tools = [
     level: "73",
   },
   {
-    icon: "icons/deno-2.svg",
-    name: "Deno",
-    level: "53",
-  },
-  {
     icon: "icons/mongodb.svg",
     name: "Mongodb",
     level: "60",
@@ -90,37 +79,17 @@ const tools = [
   },
   {
     icon: "icons/graphql.svg",
-    name: "GraphQL",
-    level: "55",
-  },
-  {
-    icon: "icons/apollo-graphql-compact.svg",
-    name: "Apollo-Client",
-    level: "55",
-  },
-  {
-    icon: "icons/firebase-1.svg",
-    name: "Firebase",
-    level: "55",
-  },
-  {
-    icon: "icons/git.svg",
-    name: "Git",
+    name: "Graphql",
     level: "60",
   },
   {
     icon: "icons/postman.svg",
     name: "Postman",
-    level: "60",
+    level: "55",
   },
   {
-    icon: "icons/webpack-icon.svg",
-    name: "Webpack",
-    level: "60",
-  },
-  {
-    icon: "icons/jira-3.svg",
-    name: "Jira",
+    icon: "icons/git.svg",
+    name: "Git",
     level: "60",
   },
 ];
