@@ -39,21 +39,6 @@ const languages = [
     name: "Redux",
     level: "60",
   },
-  {
-    icon: "icons/reactbootsrap.png",
-    name: "React-Bootstrap",
-    level: "75",
-  },
-  {
-    icon: "icons/gatsby.svg",
-    name: "Gatsby",
-    level: "55",
-  },
-  {
-    icon: "icons/Electron.png",
-    name: "Electron.js",
-    level: "55",
-  },
 ];
 
 const tools = [
@@ -73,14 +58,9 @@ const tools = [
     level: "60",
   },
   {
-    icon: "icons/postgresql.svg",
-    name: "Postgresql",
+    icon: "icons/sql.png",
+    name: "MySql",
     level: "63",
-  },
-  {
-    icon: "icons/graphql.svg",
-    name: "Graphql",
-    level: "60",
   },
   {
     icon: "icons/postman.svg",

@@ -17,7 +17,7 @@ const About = () => {
         to the growth of an organization
       </h6>
       <div className="container about__container">
-        {/* <h6 className="about__heading">What I offer</h6> */}
+        <h6 className="about__heading">What I offer</h6>
         <div className="row">
           {Aboutskills.map((skill, index) => (
             <div className="col-lg-6" key={index}>

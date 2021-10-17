@@ -28,7 +28,7 @@
 .skill-card {
   background-color: #fff;
   margin: 10px;
-  padding: 10px;
+  padding: 12px;
   display: flex;
   flex-direction: row;
   border: 1px solid lightgray;
@@ -39,6 +39,6 @@
 }
 .skill_card__content {
   margin: 0;
-  font-size: 10px;
+  font-size: 13px;
   color: #6e7e91;
 }
