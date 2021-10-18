@@ -29,16 +29,6 @@ const languages = [
     name: "Next.js",
     level: "65",
   },
-  {
-    icon: "icons/typescript.svg",
-    name: "TypeScript",
-    level: "68",
-  },
-  {
-    icon: "icons/redux.svg",
-    name: "Redux",
-    level: "60",
-  },
 ];
 
 const tools = [
@@ -48,7 +38,7 @@ const tools = [
     level: "70",
   },
   {
-    icon: "icons/ExpressJs.png",
+    icon: "icons/express.js.png",
     name: "Express.js",
     level: "73",
   },
