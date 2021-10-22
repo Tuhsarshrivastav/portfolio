@@ -1,4 +1,5 @@
 const data_projects = [
+  // mern stack
   {
     name: "Amazon-Clone",
     image: "/projects_images/mernAmazon.jpg",
@@ -66,6 +67,8 @@ const data_projects = [
     deployed_url: "https://mern-instagram-clone1.herokuapp.com/login",
     category: ["mern-stack"],
   },
+
+  // next js
   {
     name: "Amazon-clone2.0",
     image: "/projects_images/Amazon-Clone.jpg",
@@ -104,6 +107,7 @@ const data_projects = [
       "https://nextjs-google-docs-clone-2kaed7hd8-tuhsarshrivastav.vercel.app/",
     category: ["nextjs"],
   },
+  // node.js
   {
     name: "Blog",
     image: "/projects_images/node.jpg",
@@ -122,7 +126,7 @@ const data_projects = [
     deployed_url: "https://fullstack-library123.herokuapp.com",
     category: ["node.js"],
   },
-
+   // react js
   {
     name: "Netflix-Clone",
     image: "/projects_images/netflix.jpg",
@@ -215,28 +219,7 @@ const data_projects = [
     deployed_url: "https://clothify-c564b.web.app/",
     category: ["react.js"],
   },
-  {
-    name: "Coinbase-Clone",
-    image: "/projects_images/react-native.webp",
-    deployed_url:
-      "https://github.com/Tuhsarshrivastav/React-Native-Coinbase_Clone",
-    category: ["react-native"],
-  },
-  {
-    name: "Amazon-Clone",
-    image: "/projects_images/react-native.webp",
-    deployed_url:
-      "https://github.com/Tuhsarshrivastav/React_Native_amazon-Clone",
-    category: ["react-native"],
-  },
-  {
-    name: "Signal-Clone",
-    image: "/projects_images/react-native.webp",
-    deployed_url:
-      "https://github.com/Tuhsarshrivastav/React-native-Signal-Clone",
-    category: ["react-native"],
-  },
-
+  //react native 
   {
     name: "Tesla-Clone",
     image: "/projects_images/react-native.webp",
@@ -252,72 +235,17 @@ const data_projects = [
     category: ["react-native"],
   },
   {
-    name: "Selling-Shop",
+    name: "UberEats-Clone",
     image: "/projects_images/react-native.webp",
     deployed_url:
-      "https://github.com/Tuhsarshrivastav/React-Native-Selling-Shop",
+      "https://github.com/Tuhsarshrivastav/React_native_uber-eats-clone",
     category: ["react-native"],
   },
   {
-    name: "Tinder-Clone",
+    name: "Uber-Clone",
     image: "/projects_images/react-native.webp",
     deployed_url:
-      "https://github.com/Tuhsarshrivastav/React_Native_Tnder_Clone",
-    category: ["react-native"],
-  },
-  {
-    name: "Tiktok-Clone",
-    image: "/projects_images/react-native.webp",
-    deployed_url:
-      "https://github.com/Tuhsarshrivastav/React_Native_Tiktok_Clone",
-    category: ["react-native"],
-  },
-  {
-    name: "Airbnb-Clone",
-    image: "/projects_images/react-native.webp",
-    deployed_url:
-      "https://github.com/Tuhsarshrivastav/React_Native_Airbnb_Clone",
-    category: ["react-native"],
-  },
-  {
-    name: "Netflix-Clone",
-    image: "/projects_images/react-native.webp",
-    deployed_url:
-      "https://github.com/Tuhsarshrivastav/Tuhsarshrivastav-React_Native_netflix_clone",
-    category: ["react-native"],
-  },
-  {
-    name: "Taskade-Clone",
-    image: "/projects_images/react-native.webp",
-    deployed_url: "https://github.com/Tuhsarshrivastav/TaskadeClone",
-    category: ["react-native"],
-  },
-  {
-    name: "Whatsapp-Clone",
-    image: "/projects_images/react-native.webp",
-    deployed_url:
-      "https://github.com/Tuhsarshrivastav/React_Native_Whatsapp_Clone",
-    category: ["react-native"],
-  },
-  {
-    name: "Spotify-Clone",
-    image: "/projects_images/react-native.webp",
-    deployed_url:
-      "https://github.com/Tuhsarshrivastav/React_native_Spotify_Clone",
-    category: ["react-native"],
-  },
-  {
-    name: "Instgram-Clone",
-    image: "/projects_images/react-native.webp",
-    deployed_url:
-      "https://github.com/Tuhsarshrivastav/React_Native_instagram_Clone",
-    category: ["react-native"],
-  },
-  {
-    name: "Twitter-Clone",
-    image: "/projects_images/react-native.webp",
-    deployed_url:
-      "https://github.com/Tuhsarshrivastav/React_Native_Twitter_Clone",
+      "https://github.com/Tuhsarshrivastav/React_Native_uber-clone",
     category: ["react-native"],
   },
 ];
