@@ -29,6 +29,21 @@ const languages = [
     name: "Next.js",
     level: "65",
   },
+  {
+    icon: "icons/typescript.svg",
+    name: "Typescript",
+    level: "58",
+  },
+  {
+    icon: "icons/angular.svg",
+    name: "Angular",
+    level: "58",
+  },
+  {
+    icon: "icons/vue.svg",
+    name: "Vue.js",
+    level: "55",
+  },
 ];
 
 const tools = [
@@ -48,7 +63,7 @@ const tools = [
     level: "60",
   },
   {
-    icon: "icons/sql.png",
+    icon: "icons/postgresql.svg",
     name: "MySql",
     level: "63",
   },
