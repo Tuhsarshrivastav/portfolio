@@ -13,7 +13,7 @@ const Sidebar = () => {
       <img src='profile.jpg' alt="Profile" className="sidebar__avatar" />
       <div className="sidebar__name">Tushar Shrivastav</div>
       <div className="sidebar__item sidebar__title">
-        <p>JavaScript Developer</p>
+        <p>Software Developer</p>
       </div>
       <a href="resume.pdf" download="resume.pdf">
         <div className="sidebar__item sidebar__resume">Resume</div>

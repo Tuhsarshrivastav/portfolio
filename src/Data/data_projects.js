@@ -76,6 +76,12 @@ const data_projects = [
     category: ["nextjs"],
   },
   {
+    name: "Instagram-clone 2.0",
+    image: "/projects_images/instagram-clone.2.jpg",
+    deployed_url: "https://next-js-instagram-clone2-0.vercel.app/",
+    category: ["nextjs"],
+  },
+  {
     name: "Hulu-Clone",
     image: "/projects_images/Hulu.jpg",
     deployed_url: "https://hulu-clone-2-ten.vercel.app/",
