@@ -85,12 +85,27 @@ const tools = [
   {
     icon: "icons/graphql.svg",
     name: "Graphql",
-    level: "60",
+    level: "55",
   },
   {
     icon: "icons/docker-.svg",
     name: "Docker",
-    level: "60",
+    level: "57",
+  },
+  {
+    icon: "icons/Jenkins.png",
+    name: "Jenkins",
+    level: "55",
+  },
+  {
+    icon: "icons/webpack.svg",
+    name: "Webpack",
+    level: "55",
+  },
+  {
+    icon: "icons/jira.svg",
+    name: "Jira",
+    level: "50",
   },
 ];
 export { tools, languages };
