@@ -20,34 +20,14 @@ const languages = [
     level: "80",
   },
   {
-    icon: "icons/redux.svg",
-    name: "Redux",
-    level: "58",
-  },
-  {
-    icon: "icons/next-js.svg",
-    name: "Next.js",
-    level: "65",
-  },
-  {
     icon: "icons/react-native.png",
     name: "React-Native",
     level: "70",
   },
   {
-    icon: "icons/typescript.svg",
-    name: "Typescript",
-    level: "58",
-  },
-  {
-    icon: "icons/gatsby.svg",
-    name: "Gatsby",
-    level: "58",
-  },
-  {
-    icon: "icons/electron.png",
-    name: "Electron.js",
-    level: "58",
+    icon: "icons/next-js.svg",
+    name: "Next.js",
+    level: "65",
   },
 ];
 
@@ -68,7 +48,7 @@ const tools = [
     level: "60",
   },
   {
-    icon: "icons/postgresql.svg",
+    icon: "icons/sql.png",
     name: "MySql",
     level: "63",
   },
@@ -81,31 +61,6 @@ const tools = [
     icon: "icons/git.svg",
     name: "Git",
     level: "60",
-  },
-  {
-    icon: "icons/graphql.svg",
-    name: "Graphql",
-    level: "55",
-  },
-  {
-    icon: "icons/docker-.svg",
-    name: "Docker",
-    level: "57",
-  },
-  {
-    icon: "icons/Jenkins.png",
-    name: "Jenkins",
-    level: "55",
-  },
-  {
-    icon: "icons/webpack.svg",
-    name: "Webpack",
-    level: "55",
-  },
-  {
-    icon: "icons/jira.svg",
-    name: "Jira",
-    level: "50",
   },
 ];
 export { tools, languages };

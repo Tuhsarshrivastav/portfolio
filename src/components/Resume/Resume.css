@@ -25,11 +25,11 @@
 }
 .language {
   overflow-y: scroll;
-  max-height: 212px;
+  max-height: 213px;
 }
 .tools {
   overflow-y: scroll;
-  max-height: 212px;
+  max-height: 213px;
 }
 
 .resume-card__details {
