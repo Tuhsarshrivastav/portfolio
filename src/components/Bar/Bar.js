@@ -10,7 +10,7 @@ const Bar = ({ value: { icon, name, level } }) => {
         }}
       >
         <span className="bar__name">
-          <img src={icon} alt="icon" className="bar__icon mr-2" />
+          <img  src={icon} alt="icon" className="bar__icon mr-2" />
           {name}
         </span>
       </div>

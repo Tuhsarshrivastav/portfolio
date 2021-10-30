@@ -27,6 +27,36 @@ const languages = [
   {
     icon: "icons/next-js.svg",
     name: "Next.js",
+    level: "70",
+  },
+  {
+    icon: "icons/typescript.svg",
+    name: "Typescript",
+    level: "65",
+  },
+  {
+    icon: "icons/angular.svg",
+    name: "Angular",
+    level: "65",
+  },
+  {
+    icon: "icons/vuejs.svg",
+    name: "Vuejs",
+    level: "65",
+  },
+  {
+    icon: "icons/jquery.svg",
+    name: "Jquery",
+    level: "65",
+  },
+  {
+    icon: "icons/sass.svg",
+    name: "Sass",
+    level: "65",
+  },
+  {
+    icon: "icons/bootstrap.svg",
+    name: "Bootstrap",
     level: "65",
   },
 ];
@@ -60,6 +90,22 @@ const tools = [
   {
     icon: "icons/git.svg",
     name: "Git",
+    level: "60",
+  },
+  {
+    icon: "icons/aws.svg",
+    name: "Aws",
+    level: "50",
+  },
+
+  {
+    icon: "icons/linux.svg",
+    name: "Linux",
+    level: "60",
+  },
+  {
+    icon: "icons/docker.svg",
+    name: "Docker",
     level: "60",
   },
 ];
