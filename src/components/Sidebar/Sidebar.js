@@ -15,14 +15,14 @@ const Sidebar = () => {
       <div className="sidebar__item sidebar__title">
         <p>Full-Stack Developer</p>
       </div>
-      <a href="resume.pdf" download="resume.pdf">
+      <a href="resume.pdfz" download="resume.pdf">
         <div className="sidebar__item sidebar__resume">Resume</div>
       </a>
       <figure className="my-2 sidebar__social-icons ">
         <a href="https://twitter.com/TusharS70759853">
           <TwitterIcon
             style={{ fontSize: "30px" }}
-            className="mr-3 sidebar__icon"
+            className="mr-3 sidebar__icon "
           />
         </a>
         <a href="https://www.linkedin.com/in/tushar-shrivastava-2b23691b2/">

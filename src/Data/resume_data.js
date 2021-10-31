@@ -50,6 +50,11 @@ const languages = [
     level: "65",
   },
   {
+    icon: "icons/Electron.png",
+    name: "Electron.js",
+    level: "65",
+  },
+  {
     icon: "icons/sass.svg",
     name: "Sass",
     level: "65",
