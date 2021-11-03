@@ -35,35 +35,18 @@ const languages = [
     level: "65",
   },
   {
-    icon: "icons/angular.svg",
-    name: "Angular",
-    level: "65",
+    icon: "icons/gatsby.svg",
+    name: "Gatsby",
+    level: "58",
   },
-  {
-    icon: "icons/vuejs.svg",
-    name: "Vuejs",
-    level: "65",
-  },
-  {
-    icon: "icons/jquery.svg",
-    name: "Jquery",
-    level: "65",
-  },
-  {
+    {
     icon: "icons/Electron.png",
     name: "Electron.js",
     level: "65",
   },
-  {
-    icon: "icons/sass.svg",
-    name: "Sass",
-    level: "65",
-  },
-  {
-    icon: "icons/bootstrap.svg",
-    name: "Bootstrap",
-    level: "65",
-  },
+  
+  
+
 ];
 
 const tools = [
@@ -78,40 +61,31 @@ const tools = [
     level: "73",
   },
   {
-    icon: "icons/mongodb.svg",
-    name: "Mongodb",
-    level: "60",
+    icon: "icons/postgresql.svg",
+    name: "Postgresql",
+    level: "63",
   },
   {
-    icon: "icons/sql.png",
-    name: "MySql",
-    level: "63",
+    icon: "icons/graphql.svg",
+    name: "Graphql",
+    level: "55",
+  },
+  {
+    icon: "icons/mongodb2.jpg",
+    name: "Mongodb",
+    level: "55",
+  },
+   {
+    icon: "icons/git.svg",
+    name: "Git",
+    level: "60",
   },
   {
     icon: "icons/postman.svg",
     name: "Postman",
     level: "55",
   },
-  {
-    icon: "icons/git.svg",
-    name: "Git",
-    level: "60",
-  },
-  {
-    icon: "icons/aws.svg",
-    name: "Aws",
-    level: "50",
-  },
+ 
 
-  {
-    icon: "icons/linux.svg",
-    name: "Linux",
-    level: "60",
-  },
-  {
-    icon: "icons/docker.svg",
-    name: "Docker",
-    level: "60",
-  },
 ];
 export { tools, languages };
