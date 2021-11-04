@@ -39,14 +39,11 @@ const languages = [
     name: "Gatsby",
     level: "58",
   },
-    {
+  {
     icon: "icons/Electron.png",
     name: "Electron.js",
     level: "65",
   },
-  
-  
-
 ];
 
 const tools = [
@@ -59,6 +56,11 @@ const tools = [
     icon: "icons/ExpressJs.png",
     name: "Express.js",
     level: "73",
+  },
+  {
+    icon: "icons/c.svg",
+    name: "C++",
+    level: "55",
   },
   {
     icon: "icons/postgresql.svg",
@@ -75,7 +77,7 @@ const tools = [
     name: "Mongodb",
     level: "55",
   },
-   {
+  {
     icon: "icons/git.svg",
     name: "Git",
     level: "60",
@@ -85,7 +87,5 @@ const tools = [
     name: "Postman",
     level: "55",
   },
- 
-
 ];
 export { tools, languages };
