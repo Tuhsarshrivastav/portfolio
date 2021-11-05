@@ -57,10 +57,10 @@ const tools = [
     name: "Express.js",
     level: "73",
   },
-  {
-    icon: "icons/c.svg",
-    name: "C++",
-    level: "55",
+{
+    icon: "icons/deno.svg",
+    name: "Deno",
+    level: "63",
   },
   {
     icon: "icons/postgresql.svg",
@@ -75,6 +75,11 @@ const tools = [
   {
     icon: "icons/mongodb2.jpg",
     name: "Mongodb",
+    level: "55",
+  },
+   {
+    icon: "icons/c.svg",
+    name: "C++",
     level: "55",
   },
   {
