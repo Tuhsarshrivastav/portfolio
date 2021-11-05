@@ -1,6 +1,12 @@
 const data_projects = [
   // mern stack
   {
+    name: "MERN-Expenses",
+    image: "/projects_images/MERN-Expenses-App.jpg",
+    deployed_url: "https://mern-expenses-app2.herokuapp.com/",
+    category: ["mern-stack"],
+  },
+  {
     name: "Amazon-Clone",
     image: "/projects_images/mernAmazon.jpg",
     deployed_url: "https://amazon-clone16.herokuapp.com/",

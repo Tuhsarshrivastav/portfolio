@@ -44,6 +44,21 @@ const languages = [
     name: "Electron.js",
     level: "65",
   },
+  {
+    icon: "icons/bootstrap.svg",
+    name: "Bootstrap",
+    level: "72",
+  },
+  {
+    icon: "icons/tailwindcss.svg",
+    name: "TailwindCss",
+    level: "60",
+  },
+  {
+    icon: "icons/materialui.svg",
+    name: "MaterialUi",
+    level: "58",
+  },
 ];
 
 const tools = [
