@@ -45,19 +45,9 @@ const languages = [
     level: "65",
   },
   {
-    icon: "icons/bootstrap.svg",
-    name: "Bootstrap",
-    level: "72",
-  },
-  {
-    icon: "icons/tailwindcss.svg",
-    name: "TailwindCss",
-    level: "60",
-  },
-  {
-    icon: "icons/materialui.svg",
-    name: "MaterialUi",
-    level: "58",
+    icon: "icons/jamstack.svg",
+    name: "Jamstack",
+    level: "65",
   },
 ];
 
@@ -72,11 +62,6 @@ const tools = [
     name: "Express.js",
     level: "73",
   },
-{
-    icon: "icons/deno.svg",
-    name: "Deno",
-    level: "63",
-  },
   {
     icon: "icons/postgresql.svg",
     name: "Postgresql",
@@ -90,11 +75,6 @@ const tools = [
   {
     icon: "icons/mongodb2.jpg",
     name: "Mongodb",
-    level: "55",
-  },
-   {
-    icon: "icons/c.svg",
-    name: "C++",
     level: "55",
   },
   {
