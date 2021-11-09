@@ -45,8 +45,8 @@ const languages = [
     level: "65",
   },
   {
-    icon: "icons/jamstack.svg",
-    name: "Jamstack",
+    icon: "icons/vue.svg",
+    name: "Vue.js",
     level: "65",
   },
 ];
@@ -63,6 +63,11 @@ const tools = [
     level: "73",
   },
   {
+    icon: "icons/nestjs.svg",
+    name: "Nest.js",
+    level: "60",
+  },
+  {
     icon: "icons/postgresql.svg",
     name: "Postgresql",
     level: "63",
@@ -77,13 +82,7 @@ const tools = [
     name: "Mongodb",
     level: "55",
   },
- 
   {
-    icon: "icons/firebase.svg",
-    name: "Firebase",
-    level: "60",
-  },
-   {
     icon: "icons/git.svg",
     name: "Git",
     level: "60",

@@ -11,12 +11,12 @@ const Aboutskills = [
   },
   {
     title: "Fullstack Development",
-    about:
-      "I can develop fullstack web application using mern-stack",
+    about: "I can develop fullstack web application using mern-stack",
   },
   {
     title: "MobileApp Development",
-    about: "i can build android application and ios application  using react-native ",
+    about:
+      "i can build android application and ios application  using react-native ",
   },
 ];
 export { Aboutskills };

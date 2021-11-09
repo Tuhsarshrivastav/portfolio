@@ -60,6 +60,18 @@ const Projects = () => {
         >
           Next.js
         </div>
+        <div
+          className={active === "electronjs" && "projects__navbar-active"}
+          onClick={() => handleFilterCategory("electronjs")}
+        >
+          Electron.js
+        </div>
+        <div
+          className={active === "gatsby" && "projects__navbar-active"}
+          onClick={() => handleFilterCategory("gatsby")}
+        >
+          Gatsby
+        </div>
       </div>
       <div className="row">
         {projects.map((project, index) => (
