@@ -53,6 +53,16 @@ const languages = [
 
 const tools = [
   {
+    icon: "icons/python.svg",
+    name: "Python",
+    level: "55",
+  },
+  {
+    icon: "icons/fastapi.svg",
+    name: "Fastapi",
+    level: "55",
+  },
+  {
     icon: "icons/nodejs-icon.svg",
     name: "Node.js ",
     level: "70",
@@ -61,6 +71,16 @@ const tools = [
     icon: "icons/ExpressJs.png",
     name: "Express.js",
     level: "73",
+  },
+  {
+    icon: "icons/postgresql.svg",
+    name: "Postgresql",
+    level: "63",
+  },
+  {
+    icon: "icons/mongodb2.jpg",
+    name: "Mongodb",
+    level: "55",
   },
   {
     icon: "icons/graphql.svg",
@@ -73,17 +93,6 @@ const tools = [
     level: "55",
   },
   {
-    icon: "icons/postgresql.svg",
-    name: "Postgresql",
-    level: "63",
-  },
-
-  {
-    icon: "icons/mongodb2.jpg",
-    name: "Mongodb",
-    level: "55",
-  },
-   {
     icon: "icons/git.svg",
     name: "Git",
     level: "60",
