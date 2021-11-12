@@ -46,7 +46,7 @@ const Projects = () => {
           className={active === "node.js" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("node.js")}
         >
-          Node<span className="hide">-Express</span>
+          Node.js
         </div>
         <div
           className={active === "react.js" && "projects__navbar-active"}
@@ -59,18 +59,6 @@ const Projects = () => {
           onClick={() => handleFilterCategory("nextjs")}
         >
           Next.js
-        </div>
-        <div
-          className={active === "electronjs" && "projects__navbar-active"}
-          onClick={() => handleFilterCategory("electronjs")}
-        >
-          Electron.js
-        </div>
-        <div
-          className={active === "gatsby" && "projects__navbar-active"}
-          onClick={() => handleFilterCategory("gatsby")}
-        >
-          Gatsby
         </div>
       </div>
       <div className="row">

@@ -40,28 +40,28 @@ const languages = [
     level: "65",
   },
   {
-    icon: "icons/gatsby.svg",
-    name: "Gatsby",
-    level: "58",
-  },
-  {
     icon: "icons/Electron.png",
     name: "Electron.js",
+    level: "65",
+  },
+  {
+    icon: "icons/flutter.svg",
+    name: "Flutter",
+    level: "65",
+  },
+  {
+    icon: "icons/vue.svg",
+    name: "Vue.js",
+    level: "65",
+  },
+  {
+    icon: "icons/svelte.svg",
+    name: "Svelte.js",
     level: "65",
   },
 ];
 
 const tools = [
-  {
-    icon: "icons/python.svg",
-    name: "Python",
-    level: "55",
-  },
-  {
-    icon: "icons/fastapi.svg",
-    name: "Fastapi",
-    level: "55",
-  },
   {
     icon: "icons/nodejs-icon.svg",
     name: "Node.js ",
@@ -70,6 +70,16 @@ const tools = [
   {
     icon: "icons/ExpressJs.png",
     name: "Express.js",
+    level: "73",
+  },
+  {
+    icon: "icons/python.svg",
+    name: "Python",
+    level: "70",
+  },
+  {
+    icon: "icons/django.svg",
+    name: "Django",
     level: "73",
   },
   {
@@ -83,18 +93,8 @@ const tools = [
     level: "55",
   },
   {
-    icon: "icons/graphql.svg",
-    name: "Graphql",
-    level: "55",
-  },
-  {
-    icon: "icons/firebase.svg",
-    name: "Firebase",
-    level: "55",
-  },
-  {
     icon: "icons/git.svg",
-    name: "Git",
+    name: "Git ",
     level: "60",
   },
   {
