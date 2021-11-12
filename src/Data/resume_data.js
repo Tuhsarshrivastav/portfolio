@@ -45,18 +45,8 @@ const languages = [
     level: "65",
   },
   {
-    icon: "icons/flutter.svg",
-    name: "Flutter",
-    level: "65",
-  },
-  {
     icon: "icons/vue.svg",
     name: "Vue.js",
-    level: "65",
-  },
-  {
-    icon: "icons/svelte.svg",
-    name: "Svelte.js",
     level: "65",
   },
 ];
