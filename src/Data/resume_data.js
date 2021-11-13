@@ -49,6 +49,12 @@ const languages = [
     name: "Vue.js",
     level: "65",
   },
+   {
+    icon: "icons/angular.svg",
+    name: "Angular",
+    level: "65",
+  },
+  
 ];
 
 const tools = [
