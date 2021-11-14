@@ -40,24 +40,18 @@ const languages = [
     level: "65",
   },
   {
-    icon: "icons/redux.svg",
-    name: "Redux",
-    level: "60",
+    icon: "icons/angular.svg",
+    name: "Angular",
+    level: "65",
   },
   {
-    icon: "icons/react-native.png",
+    icon: "icons/react.png",
     name: "React-Native",
-    level: "70",
+    level: "80",
   },
   {
     icon: "icons/Electron.png",
     name: "Electron.js",
-    level: "65",
-  },
-
-  {
-    icon: "icons/angular.svg",
-    name: "Angular",
     level: "65",
   },
 ];
