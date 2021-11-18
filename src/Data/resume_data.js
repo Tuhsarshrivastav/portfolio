@@ -15,28 +15,13 @@ const languages = [
     level: "75",
   },
   {
-    icon: "icons/typescript.svg",
-    name: "Typescript",
-    level: "65",
-  },
-  {
     icon: "icons/react.png",
     name: "React.js",
     level: "80",
   },
   {
-    icon: "icons/next-js.svg",
-    name: "Next.js",
-    level: "70",
-  },
-  {
     icon: "icons/vue.svg",
     name: "Vue.js",
-    level: "65",
-  },
-  {
-    icon: "icons/nustjs.svg",
-    name: "Nust.js",
     level: "65",
   },
   {
@@ -45,9 +30,29 @@ const languages = [
     level: "65",
   },
   {
+    icon: "icons/typescript.svg",
+    name: "Typescript",
+    level: "65",
+  },
+  {
+    icon: "icons/next-js.svg",
+    name: "Next.js",
+    level: "70",
+  },
+  {
+    icon: "icons/nustjs.svg",
+    name: "Nust.js",
+    level: "65",
+  },
+  {
     icon: "icons/react.png",
     name: "React-Native",
     level: "80",
+  },
+  {
+    icon: "icons/flutter.svg",
+    name: "Flutter",
+    level: "65",
   },
   {
     icon: "icons/Electron.png",
@@ -57,6 +62,16 @@ const languages = [
 ];
 
 const tools = [
+  {
+    icon: "icons/python.svg",
+    name: "Python",
+    level: "55",
+  },
+  {
+    icon: "icons/django.svg",
+    name: "Django",
+    level: "55",
+  },
   {
     icon: "icons/nodejs-icon.svg",
     name: "Node.js ",
@@ -85,6 +100,16 @@ const tools = [
   {
     icon: "icons/git.svg",
     name: "Git ",
+    level: "60",
+  },
+  {
+    icon: "icons/aws.svg",
+    name: "Aws",
+    level: "55",
+  },
+  {
+    icon: "icons/firebase.svg",
+    name: "Firebase",
     level: "60",
   },
 ];
