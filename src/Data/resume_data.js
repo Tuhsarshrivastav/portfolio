@@ -22,12 +22,12 @@ const languages = [
   {
     icon: "icons/vue.svg",
     name: "Vue.js",
-    level: "65",
+    level: "58",
   },
   {
     icon: "icons/angular.svg",
     name: "Angular",
-    level: "65",
+    level: "58",
   },
   {
     icon: "icons/typescript.svg",
@@ -37,41 +37,32 @@ const languages = [
   {
     icon: "icons/next-js.svg",
     name: "Next.js",
-    level: "70",
+    level: "60",
+  },
+  {
+    icon: "icons/svelte.svg",
+    name: "Svelte",
+    level: "60",
   },
   {
     icon: "icons/nustjs.svg",
     name: "Nust.js",
-    level: "65",
+    level: "60",
   },
   {
     icon: "icons/react.png",
     name: "React-Native",
-    level: "80",
-  },
-  {
-    icon: "icons/flutter.svg",
-    name: "Flutter",
-    level: "65",
+    level: "70",
   },
   {
     icon: "icons/Electron.png",
-    name: "Electron.js",
-    level: "65",
+    name: "Electron",
+    level: "60",
   },
+
 ];
 
 const tools = [
-  {
-    icon: "icons/python.svg",
-    name: "Python",
-    level: "55",
-  },
-  {
-    icon: "icons/django.svg",
-    name: "Django",
-    level: "55",
-  },
   {
     icon: "icons/nodejs-icon.svg",
     name: "Node.js ",
@@ -101,11 +92,6 @@ const tools = [
     icon: "icons/git.svg",
     name: "Git ",
     level: "60",
-  },
-  {
-    icon: "icons/aws.svg",
-    name: "Aws",
-    level: "55",
   },
   {
     icon: "icons/firebase.svg",

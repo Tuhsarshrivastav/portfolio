@@ -10,7 +10,7 @@
 .bar__icon {
   width: 16px;
   height: 16px;
-  border-radius: 2px;
+  /* border-radius: 3px; */
 }
 .bar__wrapper {
   background-color: #fafafa;

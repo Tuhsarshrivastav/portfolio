@@ -7,7 +7,6 @@ import Projects from "./components/Project/Projects";
 import { AnimatePresence } from "framer-motion";
 import { motion } from "framer-motion";
 import About from "./components/About/About";
-
 function App() {
   const location = useLocation();
 
