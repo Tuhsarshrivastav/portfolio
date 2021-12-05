@@ -6,6 +6,7 @@
   font-size: 1.4rem;
   font-weight: 400;
   border-bottom: 2px solid lightgray;
+  transition: all 0.5s;
 }
 .navbar__item {
   margin-right: 20px;

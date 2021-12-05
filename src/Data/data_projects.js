@@ -138,7 +138,7 @@ const data_projects = [
     deployed_url: "https://fullstack-library123.herokuapp.com",
     category: ["node.js"],
   },
-   // react js
+  // react js
   {
     name: "Netflix-Clone",
     image: "/projects_images/netflix.jpg",
@@ -231,7 +231,7 @@ const data_projects = [
     deployed_url: "https://clothify-c564b.web.app/",
     category: ["react.js"],
   },
-  //react native 
+  //react native
   {
     name: "Tesla-Clone",
     image: "/projects_images/react-native.webp",
@@ -256,9 +256,41 @@ const data_projects = [
   {
     name: "Uber-Clone",
     image: "/projects_images/react-native.webp",
-    deployed_url:
-      "https://github.com/Tuhsarshrivastav/React_Native_uber-clone",
+    deployed_url: "https://github.com/Tuhsarshrivastav/React_Native_uber-clone",
     category: ["react-native"],
+  },
+  {
+    name: "Signal-Clone",
+    image: "/projects_images/react-native.webp",
+    deployed_url:
+      "https://github.com/Tuhsarshrivastav/React-native-Signal-Clone",
+    category: ["react-native"],
+  },
+  {
+    name: "Zoom-Clone",
+    image: "/projects_images/react-native.webp",
+    deployed_url: "https://github.com/Tuhsarshrivastav/React-Native-Zoom-clone",
+    category: ["react-native"],
+  },
+  //vue js
+  {
+    name: "Google2-Clone",
+    image: "/projects_images/vue2.jpg",
+    deployed_url: "https://clone-fd66d.web.app/",
+    category: ["vue.js"],
+  },
+  {
+    name: "Vue-Ecommerce",
+    image: "/projects_images/vue1.jpg",
+    deployed_url: "https://clone4-da95e.web.app/",
+    category: ["vue.js"],
+  },
+  // angular
+  {
+    name: "Angular-Ecommerce",
+    image: "/projects_images/angular.jpg",
+    deployed_url: "https://clone-1b10f.web.app/",
+    category: ["angular"],
   },
 ];
 

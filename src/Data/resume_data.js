@@ -40,11 +40,6 @@ const languages = [
     level: "60",
   },
   {
-    icon: "icons/svelte.svg",
-    name: "Svelte",
-    level: "60",
-  },
-  {
     icon: "icons/nustjs.svg",
     name: "Nust.js",
     level: "60",
@@ -56,10 +51,9 @@ const languages = [
   },
   {
     icon: "icons/Electron.png",
-    name: "Electron",
+    name: "Electron.js",
     level: "60",
   },
-
 ];
 
 const tools = [
@@ -84,8 +78,8 @@ const tools = [
     level: "55",
   },
   {
-    icon: "icons/postman.svg",
-    name: "Postman",
+    icon: "icons/graphql.svg",
+    name: "Graphql",
     level: "55",
   },
   {
@@ -94,9 +88,9 @@ const tools = [
     level: "60",
   },
   {
-    icon: "icons/firebase.svg",
-    name: "Firebase",
-    level: "60",
+    icon: "icons/postman.svg",
+    name: "Postman",
+    level: "55",
   },
 ];
 export { tools, languages };
