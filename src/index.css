@@ -3,6 +3,7 @@ html {
 }
 * {
   color: #494949;
+  transition: ease-in-out 0.2s;
 }
 /* Works on Firefox */
 * {
@@ -49,7 +50,7 @@ a:hover {
   height: 80vh;
 }
 .sidebar {
-  height: 517px;
+  height: 522px;
   padding: 25px 15px;
   background-color: #ffffff;
   text-align: center;
@@ -58,7 +59,7 @@ a:hover {
 .app__main-content {
   background-color: #ffffff;
   border: 1px solid #dbdbdb;
-  max-height: 517px;
+  max-height: 522px;
   overflow-y: scroll;
   padding: 25px 15px;
 }
@@ -68,6 +69,19 @@ a:hover {
 .app__main-content {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+.mailPop {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  background-color: white !important;
+  border: 1px solid #dbdbdb;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 @media (max-width: 991px) {
   .app__main-content {
@@ -85,7 +99,7 @@ a:hover {
   .backend {
     margin-top: 5px;
   }
-  .hide{
+  .hide {
     display: none;
   }
 }
@@ -96,8 +110,13 @@ a:hover {
   .backend {
     margin-top: 10px;
   }
-  .hide{
+  .hide {
     display: none;
+  }
+  .mailPop{
+    position: absolute;
+    top: 500px;
+    right: 17px;
   }
 }
 @media (max-width: 600px) {
