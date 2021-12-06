@@ -54,6 +54,11 @@ const languages = [
     name: "Electron.js",
     level: "60",
   },
+  {
+    icon: "icons/flutter.svg",
+    name: "Flutter",
+    level: "60",
+  },
 ];
 
 const tools = [
