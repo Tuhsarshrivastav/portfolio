@@ -3,7 +3,6 @@ html {
 }
 * {
   color: #494949;
-  transition: ease-in-out 0.2s;
 }
 /* Works on Firefox */
 * {
@@ -50,7 +49,7 @@ a:hover {
   height: 80vh;
 }
 .sidebar {
-  height: 522px;
+  height: 520px;
   padding: 25px 15px;
   background-color: #ffffff;
   text-align: center;
@@ -59,7 +58,7 @@ a:hover {
 .app__main-content {
   background-color: #ffffff;
   border: 1px solid #dbdbdb;
-  max-height: 522px;
+  max-height: 520px;
   overflow-y: scroll;
   padding: 25px 15px;
 }

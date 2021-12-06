@@ -14,7 +14,6 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar__active">{active}</div>
-
       <div className="navbar__items">
         {active !== "Skills" && (
           <Link to="/">

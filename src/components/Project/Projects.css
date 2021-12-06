@@ -42,6 +42,12 @@
   font-weight: 400;
   border-top: 1px solid lightgray;
 }
+.projectCard__title p {
+  background-color: #dbdbdb;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: -10px;
+}
 /* for project nav  */
 .projects__navbar {
   display: flex;
