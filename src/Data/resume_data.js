@@ -88,6 +88,11 @@ const tools = [
     level: "55",
   },
   {
+    icon: "icons/firebase.svg",
+    name: "Firebase",
+    level: "60",
+  },
+  {
     icon: "icons/git.svg",
     name: "Git ",
     level: "60",
