@@ -10,6 +10,11 @@ const languages = [
     level: "80",
   },
   {
+    icon: "icons/react.png",
+    name: "React-Native",
+    level: "80",
+  },
+  {
     icon: "icons/vue.svg",
     name: "Vue.js",
     level: "58",
@@ -20,11 +25,6 @@ const languages = [
     level: "60",
   },
   {
-    icon: "icons/flutter.svg",
-    name: "Flutter",
-    level: "60",
-  },
-  {
     icon: "icons/Electron.png",
     name: "Electron.js",
     level: "60",
@@ -32,11 +32,6 @@ const languages = [
 ];
 
 const tools = [
-  {
-    icon: "icons/python.svg",
-    name: "Python",
-    level: "55",
-  },
   {
     icon: "icons/nodejs-icon.svg",
     name: "Node.js ",
@@ -60,6 +55,11 @@ const tools = [
   {
     icon: "icons/graphql.svg",
     name: "Graphql",
+    level: "55",
+  },
+  {
+    icon: "icons/git.svg",
+    name: "Git",
     level: "55",
   },
 ];
