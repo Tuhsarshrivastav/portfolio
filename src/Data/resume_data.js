@@ -1,8 +1,18 @@
 const languages = [
   {
+    icon: "icons/html.svg",
+    name: "Html",
+    level: "68",
+  },
+  {
+    icon: "icons/css.svg",
+    name: "Css",
+    level: "60",
+  },
+  {
     icon: "icons/javascript-1.svg",
     name: "JavaScript",
-    level: "75",
+    level: "70",
   },
   {
     icon: "icons/react.png",
@@ -10,14 +20,9 @@ const languages = [
     level: "80",
   },
   {
-    icon: "icons/react.png",
-    name: "React-Native",
-    level: "80",
-  },
-  {
-    icon: "icons/vue.svg",
-    name: "Vue.js",
-    level: "58",
+    icon: "icons/redux.svg",
+    name: "Redux",
+    level: "78",
   },
   {
     icon: "icons/next-js.svg",
@@ -25,9 +30,34 @@ const languages = [
     level: "60",
   },
   {
+    icon: "icons/typescript.svg",
+    name: "TypeScript",
+    level: "60",
+  },
+  {
+    icon: "icons/react.png",
+    name: "React-Native",
+    level: "68",
+  },
+  {
+    icon: "icons/vue.svg",
+    name: "Vue.js",
+    level: "58",
+  },
+  {
     icon: "icons/Electron.png",
     name: "Electron.js",
     level: "60",
+  },
+  {
+    icon: "icons/bootstrap.svg",
+    name: "Bootsrap",
+    level: "60",
+  },
+  {
+    icon: "icons/tailwind.svg",
+    name: "TailwindCss",
+    level: "70",
   },
 ];
 
@@ -45,12 +75,12 @@ const tools = [
   {
     icon: "icons/postgresql.svg",
     name: "Postgresql",
-    level: "63",
+    level: "65",
   },
   {
     icon: "icons/mongodb2.jpg",
     name: "Mongodb",
-    level: "55",
+    level: "60",
   },
   {
     icon: "icons/graphql.svg",
@@ -58,8 +88,13 @@ const tools = [
     level: "55",
   },
   {
-    icon: "icons/git.svg",
-    name: "Git",
+    icon: "icons/firebase.svg",
+    name: "Firebase",
+    level: "55",
+  },
+  {
+    icon: "icons/redis.svg",
+    name: "Redis",
     level: "55",
   },
 ];
