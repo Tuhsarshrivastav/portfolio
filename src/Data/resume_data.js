@@ -73,6 +73,11 @@ const tools = [
     level: "73",
   },
   {
+    icon: "icons/deno.svg",
+    name: "Deno.js",
+    level: "55",
+  },
+  {
     icon: "icons/postgresql.svg",
     name: "Postgresql",
     level: "65",
@@ -85,11 +90,6 @@ const tools = [
   {
     icon: "icons/graphql.svg",
     name: "Graphql",
-    level: "55",
-  },
-  {
-    icon: "icons/firebase.svg",
-    name: "Firebase",
     level: "55",
   },
   {
