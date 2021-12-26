@@ -15,6 +15,13 @@ const data_projects = [
     category: ["mern-stack"],
   },
   {
+    name: "CarsShare",
+    image: "/projects_images/shareCars.jpg",
+    image2: "/projects_images/mern-logo.webp",
+    deployed_url: "https://sharecars.herokuapp.com/login",
+    category: ["mern-stack"],
+  },
+  {
     name: "PizzaShop2.0",
     image: "/projects_images/Pizza Shop2.jpg",
     image2: "/projects_images/mern-logo.webp",
