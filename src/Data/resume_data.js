@@ -50,6 +50,11 @@ const languages = [
     level: "60",
   },
   {
+    icon: "icons/reactquery.png",
+    name: "ReactQuery",
+    level: "60",
+  },
+  {
     icon: "icons/bootstrap.svg",
     name: "Bootsrap",
     level: "60",
@@ -95,6 +100,11 @@ const tools = [
   {
     icon: "icons/redis.svg",
     name: "Redis",
+    level: "55",
+  },
+  {
+    icon: "icons/socket-io.svg",
+    name: "Socket-io",
     level: "55",
   },
 ];

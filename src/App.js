@@ -10,7 +10,6 @@ import About from "./components/About/About";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 function App() {
   const location = useLocation();
-
   return (
     <>
       <motion.div
